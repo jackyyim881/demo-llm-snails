@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 
+
 # Retrieve the API key from environment variables
 xai_api_key = st.secrets["XAI_API_KEY"]["value"]
 
