@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Retrieve the API key from environment variables
-xai_api_key = st.secrets["XAI_API_KEY"]
+xai_api_key = st.secrets["XAI_API_KEY"]["value"]
 
 # Initialize the ChatXAI model with the API key
 chat = ChatXAI(
