@@ -2,4 +2,4 @@ streamlit==1.40.0
 langchain_xai==0.1.0  # replace with actual version
 python-dotenv==0.21.1
 altair==4.2.0
-langsmith==latest
+langsmith==0.1.147
