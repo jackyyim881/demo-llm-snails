@@ -81,7 +81,7 @@ def display_chat_interface(response_type):
 
 
 def main():
-    response_type = "Short Response with References and Videos"
+    response_type = "How Long Do Snails Sleep? 🐌"
 
     st.header(f"{response_type}")
 
