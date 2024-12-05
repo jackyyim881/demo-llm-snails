@@ -80,9 +80,10 @@ def display_chat_interface(response_type):
 
 
 def main():
-    response_type = "How Long Do Snails Sleep? 🐌"
+    response_type = "Long Response with References and Videos"
 
     st.header(f"{response_type}")
+    st.title("How Long Do Snails Sleep? 🐌")
 
     display_chat_interface(response_type)
 

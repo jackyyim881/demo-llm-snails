@@ -17,8 +17,8 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 # Retrieve the API key from environment variables
-# xai_api_key = os.getenv("XAI_API_KEY")
-xai_api_key = st.secrets["XAI_API_KEY"]["value"]
+xai_api_key = os.getenv("XAI_API_KEY")
+# xai_api_key = st.secrets["XAI_API_KEY"]["value"]
 
 # Handle missing API key
 if not xai_api_key:

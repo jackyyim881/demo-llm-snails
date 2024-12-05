@@ -1,11 +1,7 @@
+# pages/Short_Response_with_References_and_Videos.py
+
 import streamlit as st
 from common import RESPONSE_TYPES, get_prompt, generate_response, handle_feedback
-from streamlit_feedback import streamlit_feedback
-import uuid
-import logging
-
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
 
 
 def display_chat_interface(response_type):
@@ -58,33 +54,28 @@ def display_chat_interface(response_type):
                 {"role": "assistant", "content": bot_response})
 
             # Feedback Section
+            col1, col2 = st.columns([2, 1])
 
-            st.markdown(
-                "<h4 style='font-size: 14px;'>How helpful was this response?</h4>", unsafe_allow_html=True)
-            feedback = streamlit_feedback(feedback_type="thumbs", optional_text_label="[Optional] Please provide an explanation",
-                                          )
+            with col2:
+                st.markdown(
+                    "<h4 style='font-size: 14px;'>How helpful was this response?</h4>", unsafe_allow_html=True)
+                feedback = st_feedback()
 
-            # Capture feedback and store it in Langsmith (and locally)
             if feedback:
-                # Generate a unique run_id for traceability
-                run_id = str(uuid.uuid4())
+                handle_feedback(response_type, user_input,
+                                bot_response, feedback)
 
-                try:
-                    handle_feedback(response_type, user_input,
-                                    bot_response, feedback, run_id)
-                    logger.info(
-                        f"Feedback logged successfully for run_id: {run_id}")
 
-                    st.success("Thank you for your feedback!")
-                except Exception as e:
-                    st.error(f"Error logging feedback: {e}")
+def st_feedback():
+    from streamlit_feedback import streamlit_feedback
+    return streamlit_feedback(feedback_type="thumbs", optional_text_label="[Optional] Please provide an explanation")
 
 
 def main():
-    response_type = "How Long Do Snails Sleep? 🐌"
+    response_type = "Short Response with References and Videos"
 
     st.header(f"{response_type}")
-
+    st.title("How Long Do Snails Sleep? 🐌")
     display_chat_interface(response_type)
 
 
