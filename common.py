@@ -17,9 +17,9 @@ load_dotenv()
 
 # Retrieve the API keys from environment variables
 xai_api_key = os.getenv("XAI_API_KEY")
-gpt_api_key = os.getenv("OPENAI_API_KEY")
+# gpt_api_key = os.getenv("OPENAI_API_KEY")
 # xai_api_key = st.secrets["XAI_API_KEY"]["value"]
-# gpt_api_key = st.secrets["OPENAI_API_KEY"]["value"]
+gpt_api_key = st.secrets["OPENAI_API_KEY"]["value"]
 
 
 # Handle missing API keys
