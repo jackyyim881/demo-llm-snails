@@ -7,7 +7,6 @@ from streamlit_feedback import streamlit_feedback
 from langsmith import Client  # Import Langsmith Client
 from uuid import uuid4
 from streamlit_cookies_controller import CookieController
-import streamlit_shadcn_ui as ui
 
 
 # Directory where log files will be saved
