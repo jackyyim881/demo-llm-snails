@@ -60,25 +60,34 @@ def display_chat_interface(response_type):
             st.session_state[chat_history_key].append(
                 {"role": "assistant", "content": bot_response})
 
+            fake_likes = 100
+
             st.markdown(
                 "<h4 style='font-size: 14px;'>How helpful was this response?</h4>", unsafe_allow_html=True)
-            feedback = streamlit_feedback(feedback_type="thumbs", optional_text_label="[Optional] Please provide an explanation",
-                                          )
 
-            # Capture feedback and store it in Langsmith (and locally)
-            if feedback:
-                # Generate a unique run_id for traceability
-                run_id = str(uuid.uuid4())
+            with st.form('feedback_form', clear_on_submit=True):
+                st.form_submit_button(label=f"Like ({fake_likes})")
+                feedback = streamlit_feedback(
+                    feedback_type="thumbs",
+                    optional_text_label="[Optional] Please provide an explanation",
+                    key="fb_k"
+                )
+                submit = st.form_submit_button(label='Submit Feedback')
 
-                try:
-                    handle_feedback(response_type, user_input,
-                                    bot_response, feedback, run_id)
-                    logger.info(
-                        f"Feedback logged successfully for run_id: {run_id}")
+                # Capture feedback and store it in Langsmith (and locally)
+                if submit and feedback:
+                    # Generate a unique run_id for traceability
+                    run_id = str(uuid.uuid4())
 
-                    st.success("Thank you for your feedback!")
-                except Exception as e:
-                    st.error(f"Error logging feedback: {e}")
+                    try:
+                        handle_feedback(response_type, user_input,
+                                        bot_response, feedback, run_id)
+                        logger.info(
+                            f"Feedback logged successfully for run_id: {run_id}")
+
+                        st.success("Thank you for your feedback!")
+                    except Exception as e:
+                        st.error(f"Error logging feedback: {e}")
 
 
 def main():

@@ -19,7 +19,12 @@ load_dotenv()
 # xai_api_key = os.getenv("XAI_API_KEY")
 # gpt_api_key = os.getenv("OPENAI_API_KEY")
 # xai_api_key = st.secrets["XAI_API_KEY"]["value"]
-gpt_api_key = st.secrets["OPENAI_API_KEY"]["value"]
+# gpt_api_key = st.secrets["OPENAI_API_KEY"]["value"]
+
+try:
+    gpt_api_key = st.secrets["OPENAI_API_KEY"]["value"]
+except Exception:
+    gpt_api_key = os.getenv("OPENAI_API_KEY")
 
 
 # Handle missing API keys
@@ -110,19 +115,27 @@ def generate_response(prompt):
 
 
 def handle_feedback():
-    # Ensure fb_k is initialized in session state
-    if 'fb_k' not in st.session_state:
-        st.session_state.fb_k = None  # Initialize feedback state if not present
+    # Initialize like and dislike counters in session state if they don't exist.
+    if 'like_count' not in st.session_state:
+        st.session_state.like_count = 0
+    if 'dislike_count' not in st.session_state:
+        st.session_state.dislike_count = 0
 
-    feedback = st.session_state.fb_k  # Get the feedback value from session state
+    # Get the feedback value from session state
+    feedback = st.session_state.get("fb_k", None)
 
-    # If feedback is submitted, store it
+    # If feedback is submitted, update counters and display the feedback.
     if feedback:
+        if feedback == "Thumbs Up":
+            st.session_state.like_count += 1
+        elif feedback == "Thumbs Down":
+            st.session_state.dislike_count += 1
+
         st.write(f"Feedback received: {feedback}")
         st.toast("Feedback submitted successfully!", icon="🚀")
-        # Optionally, store the feedback to a database (use store_feedback() as needed)
+        # Clear the feedback selection after submission.
+        st.session_state.fb_k = None
     else:
-        # Default message if no feedback is received
         st.write("No feedback yet.")
 
 
@@ -130,16 +143,24 @@ def display_feedback_form():
     st.write("### Please provide your feedback")
 
     # Create the feedback options: thumbs up or down
-    feedback = st.radio("Was this response helpful?",
-                        options=["Thumbs Up", "Thumbs Down"])
+    feedback = st.radio(
+        "Was this response helpful?",
+        options=["Thumbs Up", "Thumbs Down"],
+        key="feedback_radio"
+    )
 
     # Save feedback to session state when the user selects an option
     if feedback:
-        st.session_state.fb_k = feedback  # Save feedback in session state
+        st.session_state.fb_k = feedback
 
     # Display the feedback form and submit button
     if st.button("Submit Feedback"):
-        handle_feedback()  # Call handle_feedback without passing arguments
+        handle_feedback()
+
+    # Display current feedback counts
+    st.write("#### Feedback Summary")
+    st.write("👍 Likes: ", st.session_state.get("like_count", 10))
+    st.write("👎 Dislikes: ", st.session_state.get("dislike_count", 0))
 
 
 def main():

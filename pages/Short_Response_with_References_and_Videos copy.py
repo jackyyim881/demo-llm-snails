@@ -8,34 +8,46 @@ from langsmith import Client  # Import Langsmith Client
 from uuid import uuid4
 from streamlit_cookies_controller import CookieController
 
-
 # Directory where log files will be saved
 ls_client = Client()
 
 log_dir = 'logs'
-
 os.makedirs(log_dir, exist_ok=True)
-
 log_file = os.path.join(log_dir, 'app.log')
 
-# Configure the logging to output to both console and a log file
+# Configure logging to output to both console and a log file
 logging.basicConfig(
     level=logging.DEBUG,  # Set the minimum logging level
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
         logging.FileHandler(log_file),  # Log to a file
-        logging.StreamHandler()  # Log to console
+        logging.StreamHandler()         # Log to console
     ]
 )
-
 logger = logging.getLogger(__name__)
 
 
 def handle_feedback():
     feedback = st.session_state.fb_k
+    # Initialize like and dislike counters if they don't exist
+    if 'like_count' not in st.session_state:
+        st.session_state.like_count = 0
+    if 'dislike_count' not in st.session_state:
+        st.session_state.dislike_count = 0
+
     if feedback:
         feedback_type = feedback.get('type', 'No type')
-        score = 1 if feedback.get('score') == '👍' else 0
+        score_str = feedback.get('score', 'N/A')
+        # Increment counters based on feedback score
+        if score_str == '👍':
+            st.session_state.like_count += 1
+            score = 1
+        elif score_str == '👎':
+            st.session_state.dislike_count += 1
+            score = 0
+        else:
+            score = 0
+
         feedback_text = feedback.get('text', '')
         run_id = str(uuid4())
 
@@ -50,7 +62,6 @@ def handle_feedback():
             logger.info(f"User feedback: {feedback_type} with score: {
                         score}, feedback text: {feedback_text}")
             st.toast("✔️ Feedback submitted successfully!")
-
         except Exception as e:
             logger.error(f"Error submitting feedback: {e}")
             st.error("Failed to submit feedback. Please try again.")
@@ -75,14 +86,13 @@ def display_chat_interface(response_type):
         # Add user message to chat history
         st.session_state[chat_history_key].append(
             {"role": "user", "content": user_input})
-        # Display user message in chat message container
         with st.chat_message("user"):
             st.markdown(user_input)
 
         # Define the assistant avatar (🦜)
         avatar = "🦜"
 
-        # Add assistant response to chat history with placeholder
+        # Add assistant response with placeholder
         with st.chat_message("assistant", avatar=avatar):
             placeholder = st.empty()  # Create a placeholder for the response
             bot_response = ""
@@ -93,19 +103,19 @@ def display_chat_interface(response_type):
                 # Generate response from the model incrementally
                 for partial_response in generate_response(prompt):
                     placeholder.markdown(f"**Bot:** {partial_response}")
-                bot_response = partial_response  # Set the final bot response
+                bot_response = partial_response  # Final bot response
             except Exception as e:
                 placeholder.error(f"An error occurred: {e}")
 
-        # Check if videos should be included based on response_type
+        # If the response type requires videos, display them
         options = RESPONSE_TYPES.get(response_type)
         if options and options.get("videos"):
             video_links = [
                 "https://www.youtube.com/watch?v=kKZNdhNyYnc",
                 "https://www.youtube.com/watch?v=fLsnySWPVbw"
             ]
-            for link in video_links:
-                st.video(link)
+        for link in video_links:
+            st.video(link)
 
         # Append bot response to the conversation history
         if bot_response:
@@ -115,8 +125,6 @@ def display_chat_interface(response_type):
             # Feedback Section
             st.markdown(
                 "<h4 style='font-size: 14px;'>How helpful was this response?</h4>", unsafe_allow_html=True)
-
-            # Trigger the feedback interface after response
             display_feedback_form()
 
 
@@ -139,7 +147,6 @@ def display_feedback_form():
 
 def main():
     controller = CookieController()
-
     st.session_state['current_page'] = "Short_Response_with_References_and_Videos.py"
     st.session_state['response_type'] = "Short Response with References and Videos"
     controller.set('cookie_name', 'user_cookie')
