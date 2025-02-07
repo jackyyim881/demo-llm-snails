@@ -16,17 +16,17 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 # Retrieve the API keys from environment variables
-xai_api_key = os.getenv("XAI_API_KEY")
+# xai_api_key = os.getenv("XAI_API_KEY")
 # gpt_api_key = os.getenv("OPENAI_API_KEY")
 # xai_api_key = st.secrets["XAI_API_KEY"]["value"]
 gpt_api_key = st.secrets["OPENAI_API_KEY"]["value"]
 
 
 # Handle missing API keys
-if not xai_api_key:
-    st.error(
-        "API key for ChatXAI is not set. Please check your environment variables.")
-    st.stop()
+# if not xai_api_key:
+#     st.error(
+#         "API key for ChatXAI is not set. Please check your environment variables.")
+#     st.stop()
 
 if not gpt_api_key:
     st.error("API key for OpenAI is not set. Please check your environment variables.")
