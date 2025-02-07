@@ -1,13 +1,12 @@
 import os
 from langchain_xai import ChatXAI
+from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 import streamlit as st
-import sqlite3
-from langsmith.wrappers import wrap_openai
 from langsmith import traceable, Client
-import uuid
 import logging
-
+# The OpenAI import below is retained if you plan to use it elsewhere.
+from openai import OpenAI
 
 # Initialize logger
 logging.basicConfig(level=logging.INFO)
@@ -16,20 +15,35 @@ logger = logging.getLogger(__name__)
 # Load environment variables from .env file
 load_dotenv()
 
-# Retrieve the API key from environment variables
-# xai_api_key = os.getenv("XAI_API_KEY")
-xai_api_key = st.secrets["XAI_API_KEY"]["value"]
+# Retrieve the API keys from environment variables
+xai_api_key = os.getenv("XAI_API_KEY")
+gpt_api_key = os.getenv("OPENAI_API_KEY")
+# xai_api_key = st.secrets["XAI_API_KEY"]["value"]
+# gpt_api_key = st.secrets["OPENAI_API_KEY"]["value"]
 
-# Handle missing API key
+
+# Handle missing API keys
 if not xai_api_key:
     st.error(
         "API key for ChatXAI is not set. Please check your environment variables.")
     st.stop()
 
-# Initialize the ChatXAI model with the API key
-chat = ChatXAI(
-    xai_api_key=xai_api_key,
-    model="grok-beta",
+if not gpt_api_key:
+    st.error("API key for OpenAI is not set. Please check your environment variables.")
+    st.stop()
+
+# (Optional) Initialize the OpenAI model if needed elsewhere
+# chat_openai = OpenAI(
+#     api_key=gpt_api_key,
+# )
+
+# Initialize the ChatXAI model with ChatGPT 4o mini as the model.
+# Change the model parameter from "grok-beta" to "chatgpt-4o-mini"
+chat = ChatOpenAI(
+    api_key=gpt_api_key,
+    model="gpt-4o-mini",
+    temperature=0.7,
+    max_tokens=2048,
 )
 
 # Initialize Langsmith client for logging feedback
@@ -46,20 +60,6 @@ RESPONSE_TYPES = {
     "Short Response with No References and Videos": {"length": "short", "references": False, "videos": True},
     "Short Response with No References and No Videos": {"length": "short", "references": False, "videos": False},
 }
-
-# SQLite feedback table initialization
-conn = sqlite3.connect('feedback.db', check_same_thread=False)
-cursor = conn.cursor()
-
-# Create feedback table if it doesn't exist
-cursor.execute('''CREATE TABLE IF NOT EXISTS feedback (
-                    id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    response_type TEXT,
-                    question TEXT,
-                    response TEXT,
-                    feedback TEXT,
-                    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP)''')
-conn.commit()
 
 
 def get_prompt(user_input, response_type):
@@ -101,7 +101,7 @@ def get_prompt(user_input, response_type):
     return prompt
 
 
-@traceable(metadata={"llm": "grok-beta"})
+@traceable(metadata={"llm": "gpt-4o-mini"})
 def generate_response(prompt):
     bot_response = ""
     for chunk in chat.stream(prompt):
@@ -109,68 +109,41 @@ def generate_response(prompt):
         yield bot_response
 
 
-def store_feedback(response_type, question, response, feedback):
-    cursor.execute('''INSERT INTO feedback (response_type, question, response, feedback)
-                      VALUES (?, ?, ?, ?)''', (response_type, question, response, feedback))
-    conn.commit()
+def handle_feedback():
+    # Ensure fb_k is initialized in session state
+    if 'fb_k' not in st.session_state:
+        st.session_state.fb_k = None  # Initialize feedback state if not present
+
+    feedback = st.session_state.fb_k  # Get the feedback value from session state
+
+    # If feedback is submitted, store it
+    if feedback:
+        st.write(f"Feedback received: {feedback}")
+        st.toast("Feedback submitted successfully!", icon="🚀")
+        # Optionally, store the feedback to a database (use store_feedback() as needed)
+    else:
+        # Default message if no feedback is received
+        st.write("No feedback yet.")
 
 
-def handle_feedback(response_type, user_input, bot_response, feedback, run_id):
-    try:
-        # Log feedback to SQLite (local database)
-        conn = sqlite3.connect('feedback.db')
-        cursor = conn.cursor()
-        cursor.execute('''INSERT INTO feedback (response_type, question, response, feedback, run_id)
-                          VALUES (?, ?, ?, ?, ?)''',
-                       (response_type, user_input, bot_response, feedback, run_id))
-        conn.commit()
-        logger.info(f"Feedback inserted into database with run_id: {run_id}")
-
-        # Send feedback to Langsmith (remote feedback service)
-        ls_client.create_feedback(
-            response_type=response_type,
-            question=user_input,
-            key="user-score",
-            response=bot_response,
-            feedback=feedback,
-            run_id=run_id
-        )
-        logger.info(f"Feedback sent to Langsmith with run_id: {run_id}")
-
-    except Exception as e:
-        logger.error(f"Error in handle_feedback: {e}")
-        st.error(f"Error logging feedback: {e}")
-
-
-def display_feedback_form(response_type, question, response, run_id):
+def display_feedback_form():
     st.write("### Please provide your feedback")
+
+    # Create the feedback options: thumbs up or down
     feedback = st.radio("Was this response helpful?",
                         options=["Thumbs Up", "Thumbs Down"])
 
+    # Save feedback to session state when the user selects an option
+    if feedback:
+        st.session_state.fb_k = feedback  # Save feedback in session state
+
+    # Display the feedback form and submit button
     if st.button("Submit Feedback"):
-        handle_feedback(response_type, question, response, feedback, run_id)
+        handle_feedback()  # Call handle_feedback without passing arguments
 
 
 def main():
-    question = "Where do snails sleep?"
-    response_type = "Short Response with References and Videos"
-
-    # Generate response with Langchain & Langsmith tracing
-    prompt = get_prompt(question, response_type)
-
-    # Initialize the response generation process
-    response_generator = generate_response(prompt)
-    response = ""
-
-    for chunk in response_generator:
-        response = chunk  # Get the response as it's generated
-        st.write(response)  # Display the response on Streamlit
-
-    # Generate a unique run ID for traceability
-    run_id = str(uuid.uuid4())
-
-    # Display feedback form
-    display_feedback_form(response_type, question, response, run_id)
+    display_feedback_form()
 
 
 if __name__ == "__main__":

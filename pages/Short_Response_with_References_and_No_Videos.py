@@ -2,7 +2,7 @@
 
 import streamlit as st
 from common import RESPONSE_TYPES, get_prompt, generate_response, handle_feedback
-
+from streamlit_cookies_controller import CookieController
 import uuid
 from streamlit_feedback import streamlit_feedback
 import logging
@@ -74,7 +74,15 @@ def display_chat_interface(response_type):
 
 
 def main():
+    controller = CookieController()
+
+    st.session_state['current_page'] = "Short_Response_with_References_and_No_Videos"
+
+    st.session_state['response_type'] = "Short Response with References and No Videos"
+
     response_type = "Short Response with References and No Videos"
+
+    controller.set('cookie_name', 'user_cookie')
 
     st.header(f"{response_type}")
     st.title("How Long Do Snails Sleep? 🐌")

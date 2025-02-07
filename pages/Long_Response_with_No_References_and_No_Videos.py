@@ -5,6 +5,7 @@ from common import RESPONSE_TYPES, get_prompt, generate_response, handle_feedbac
 import uuid
 from streamlit_feedback import streamlit_feedback
 import logging
+from streamlit_cookies_controller import CookieController
 
 
 logging.basicConfig(level=logging.INFO)
@@ -74,6 +75,17 @@ def display_chat_interface(response_type):
 
 
 def main():
+
+    controller = CookieController()
+
+    st.session_state["current_page"] = "Long_Response_with_No_References_and_No_Videos"
+
+    st.session_state["response_type"] = "Long Response with No References and No Videos"
+
+    controller.set('cookie_name', 'user_cookie')
+
+    cookies = controller.getAll()
+
     response_type = "Long Response with No References and No Videos"
 
     st.header(f"{response_type}")

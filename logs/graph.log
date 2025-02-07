@@ -1,0 +1,42 @@
+2024-12-08 13:14:40,591 - ERROR - Error retrieving feedback data: 'Feedback' object has no attribute 'timestamp'
+2024-12-08 13:15:41,268 - ERROR - Error retrieving feedback data: 'Feedback' object has no attribute 'timestamp'
+2024-12-08 13:25:29,829 - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 13:25:29,904 - INFO - 生成 LLM 回應: Harrison worked at Kensho.
+2024-12-08 13:25:30,432 - INFO - Session ID: 0350aa97-aef4-4d94-b8fd-1002eb9b86ef | User: lol | Bot: Harrison worked at Kensho.
+2024-12-08 13:25:35,420 - INFO - Feedback sent successfully to Langsmith for run_id=cb53c2e5-7f5b-445b-8ee9-453a4e210f09 with score=1.0.
+2024-12-08 13:26:17,865 - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 13:26:17,866 - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-08 13:26:18,558 - INFO - Session ID: 0350aa97-aef4-4d94-b8fd-1002eb9b86ef | User: hi | Bot: Hello! How can I assist you today?
+2024-12-08 13:26:21,558 - INFO - Feedback sent successfully to Langsmith for run_id=3f424bef-1d31-4112-b5fa-cfbd7ca77234 with score=1.0.
+2024-12-08 13:30:42,724 - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 13:30:42,725 - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-08 13:30:43,414 - INFO - Session ID: 0350aa97-aef4-4d94-b8fd-1002eb9b86ef | User: hi | Bot: Hello! How can I assist you today?
+2024-12-08 13:31:17,844 - INFO - Feedback sent successfully to Langsmith for run_id=a45c6681-791c-4163-9dd3-5d634be52da4 with score=1.0.
+2024-12-09 14:52:37,900 - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-09 14:52:37,910 - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-09 14:52:38,604 - INFO - Session ID: 85131617-0412-43df-b5d8-1e7513dd89b8 | User: hi | Bot: Hello! How can I assist you today?
+2024-12-09 14:52:40,683 - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-09 14:52:40,684 - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-09 14:52:41,375 - INFO - Session ID: 85131617-0412-43df-b5d8-1e7513dd89b8 | User: hi | Bot: Hello! How can I assist you today?
+2024-12-09 14:54:11,427 - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-09 14:54:11,428 - INFO - 生成 LLM 回應: Harrison worked at Kensho.
+2024-12-09 14:54:11,950 - INFO - Session ID: 85131617-0412-43df-b5d8-1e7513dd89b8 | User: sd | Bot: Harrison worked at Kensho.
+2024-12-09 14:55:18,926 - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-09 14:55:18,927 - INFO - 生成 LLM 回應: I will not respond to that request as it does not pertain to the information about Harrison working at Kensho. If you have questions related to Harrison's employment at Kensho, please ask.
+2024-12-09 14:55:22,821 - INFO - Session ID: 85131617-0412-43df-b5d8-1e7513dd89b8 | User: sd | Bot: I will not respond to that request as it does not pertain to the information about Harrison working at Kensho. If you have questions related to Harrison's employment at Kensho, please ask.
+2024-12-09 14:56:04,651 - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-09 14:56:05,624 - INFO - 生成 LLM 回應: Harrison worked at Kensho.
+2024-12-09 14:56:06,148 - INFO - Session ID: 85131617-0412-43df-b5d8-1e7513dd89b8 | User: ds | Bot: Harrison worked at Kensho.
+2024-12-09 14:56:10,423 - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-09 14:56:10,425 - INFO - 生成 LLM 回應: The provided information states that **Harrison worked at Kensho**. If you have any further questions related to this information, feel free to ask!
+2024-12-10 15:08:22,107 - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:08:22,119 - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-10 15:08:22,810 - INFO - Session ID: 20cd9089-d2c5-47ef-b0c8-e95d3862edff | User: hi | Bot: Hello! How can I assist you today?
+2024-12-10 15:08:40,065 - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:08:40,067 - INFO - 生成 LLM 回應: Harrison worked at Kensho.
+2024-12-10 15:08:40,591 - INFO - Session ID: 20cd9089-d2c5-47ef-b0c8-e95d3862edff | User: sdds | Bot: Harrison worked at Kensho.
+2024-12-10 15:14:11,593 - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-03 16:46:12,456 - ERROR - Error retrieving feedback data: 1 validation error for Feedback
+trace_id
+  Field required [type=missing, input_value={'created_at': '2024-12-2...xtra': {'error': False}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing

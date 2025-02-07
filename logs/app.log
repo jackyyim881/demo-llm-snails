@@ -1,0 +1,1008 @@
+2024-12-07 13:58:07,758 - __main__ - INFO - Feedback sent successfully: {'feedback_type': 'thumbs', 'feedback_text': 'dssd', 'session_id': '70e6dda8-deb0-4c2d-bad7-2ed035619319', 'run_id': 'c1b1a56d-45b2-4733-9e37-8c5eaae5e159'}
+2024-12-07 14:06:42,591 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:10:57,201 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:10:57,206 - __main__ - ERROR - 生成 LLM 回應時出錯: 'ChatCompletionMessage' object is not subscriptable
+2024-12-07 14:10:57,210 - __main__ - INFO - Session ID: f4e9a5d4-3afd-4777-ab6d-d575b3061bc4 | User: hi | Bot: 抱歉，我現在無法提供回應。
+2024-12-07 14:11:39,886 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:11:39,888 - __main__ - INFO - 生成 LLM 回應: ChatCompletionMessage(content='Hello! How can I assist you today?', refusal=None, role='assistant', audio=None, function_call=None, tool_calls=None)
+2024-12-07 14:11:39,889 - __main__ - INFO - Session ID: 779b8b9e-cfbd-4786-a8dc-22aa484489b2 | User: hi | Bot: ChatCompletionMessage(content='Hello! How can I assist you today?', refusal=None, role='assistant', audio=None, function_call=None, tool_calls=None)
+2024-12-07 14:12:01,804 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:12:01,807 - __main__ - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-07 14:12:01,808 - __main__ - INFO - Session ID: 779b8b9e-cfbd-4786-a8dc-22aa484489b2 | User: hi | Bot: Hello! How can I assist you today?
+2024-12-07 14:16:31,725 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:16:31,814 - __main__ - ERROR - 生成 LLM 回應時出錯: 'ChatCompletionChunk' object is not subscriptable
+2024-12-07 14:16:31,816 - __main__ - INFO - Session ID: 0324bf8e-1064-4261-8796-198ac69c94ea | User: hi | Bot: 抱歉，我現在無法提供回應。
+2024-12-07 14:16:55,936 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:16:55,990 - __main__ - ERROR - 生成 LLM 回應時出錯: 'Choice' object has no attribute 'message'
+2024-12-07 14:16:55,992 - __main__ - INFO - Session ID: 0324bf8e-1064-4261-8796-198ac69c94ea | User: hi | Bot: 抱歉，我現在無法提供回應。
+2024-12-07 14:17:51,747 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:17:51,748 - __main__ - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-07 14:17:51,750 - __main__ - INFO - Session ID: 0324bf8e-1064-4261-8796-198ac69c94ea | User: hi | Bot: Hello! How can I assist you today?
+2024-12-07 14:19:55,057 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:19:55,145 - __main__ - ERROR - 生成 LLM 回應時出錯: 'Choice' object has no attribute 'message'
+2024-12-07 14:19:55,147 - __main__ - INFO - Session ID: 0324bf8e-1064-4261-8796-198ac69c94ea | User: hi | Bot: 抱歉，我現在無法提供回應。
+2024-12-07 14:22:37,722 - __main__ - INFO - Session ID: 0324bf8e-1064-4261-8796-198ac69c94ea | User: hi | Bot: <generator object rag at 0x0000029C0D4D28C0>
+2024-12-07 14:22:55,802 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:22:56,091 - __main__ - INFO - 生成 LLM 回應: None
+2024-12-07 14:22:56,093 - __main__ - INFO - Session ID: 0324bf8e-1064-4261-8796-198ac69c94ea | User: hi | Bot: None
+2024-12-07 14:23:33,886 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:23:33,962 - __main__ - ERROR - 生成 LLM 回應時出錯: 'ChatCompletionChunk' object has no attribute 'get'
+2024-12-07 14:23:33,964 - __main__ - INFO - Session ID: 0324bf8e-1064-4261-8796-198ac69c94ea | User: hi | Bot: 抱歉，我現在無法提供回應。
+2024-12-07 14:24:17,690 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:24:17,773 - __main__ - ERROR - 生成 LLM 回應時出錯: 'Choice' object has no attribute 'message'
+2024-12-07 14:24:17,775 - __main__ - INFO - Session ID: 0324bf8e-1064-4261-8796-198ac69c94ea | User: hi | Bot: 抱歉，我現在無法提供回應。
+2024-12-07 14:24:49,072 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:24:49,139 - __main__ - ERROR - 生成 LLM 回應時出錯: 'str' object has no attribute 'get'
+2024-12-07 14:24:49,141 - __main__ - INFO - Session ID: 0324bf8e-1064-4261-8796-198ac69c94ea | User: hi | Bot: 抱歉，我現在無法提供回應。
+2024-12-07 14:25:18,233 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:25:18,234 - __main__ - ERROR - 生成 LLM 回應時出錯: 'Stream' object has no attribute 'choices'
+2024-12-07 14:25:18,235 - __main__ - INFO - Session ID: 0324bf8e-1064-4261-8796-198ac69c94ea | User: hi | Bot: 抱歉，我現在無法提供回應。
+2024-12-07 14:25:36,023 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:25:36,025 - __main__ - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-07 14:25:36,028 - __main__ - INFO - Session ID: 0324bf8e-1064-4261-8796-198ac69c94ea | User: hi | Bot: Hello! How can I assist you today?
+2024-12-07 14:28:55,175 - __main__ - INFO - Session ID: 0324bf8e-1064-4261-8796-198ac69c94ea | User: hi | Bot: <generator object rag at 0x0000029C6B65B230>
+2024-12-07 14:29:26,812 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:29:26,813 - __main__ - INFO - 生成 LLM 回應: It seems like your message was incomplete or unclear. Could you please provide more details or clarify your question?
+2024-12-07 14:29:26,815 - __main__ - INFO - Session ID: 0324bf8e-1064-4261-8796-198ac69c94ea | User: sdds | Bot: It seems like your message was incomplete or unclear. Could you please provide more details or clarify your question?
+2024-12-07 14:32:04,793 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:32:04,793 - __main__ - INFO - 生成 LLM 回應: It looks like your message might be incomplete or unclear. Could you please provide more information or clarify your question?
+2024-12-07 14:32:04,796 - __main__ - INFO - Session ID: 0324bf8e-1064-4261-8796-198ac69c94ea | User: sdds | Bot: <generator object stream_data at 0x0000029C0D2045F0>
+2024-12-07 14:32:24,643 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:32:24,643 - __main__ - INFO - 生成 LLM 回應: It seems there might have been a typo or misunderstanding in your query. Based on the information provided, Harrison worked at Kensho. If you have any other questions related to this information, feel free to ask!
+2024-12-07 14:32:24,646 - __main__ - INFO - Session ID: 0324bf8e-1064-4261-8796-198ac69c94ea | User: sdds | Bot: It seems there might have been a typo or misunderstanding in your query. Based on the information provided, Harrison worked at Kensho. If you have any other questions related to this information, feel free to ask!
+2024-12-07 14:35:31,701 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:35:31,701 - __main__ - INFO - 生成 LLM 回應: It looks like there might be a typo or missing context in your message. Could you please rephrase or provide more details?
+2024-12-07 14:35:31,704 - __main__ - INFO - Session ID: ad030f35-ac42-4d54-8786-c38ef89a0241 | User: sdds | Bot: It looks like there might be a typo or missing context in your message. Could you please rephrase or provide more details?
+2024-12-07 14:38:05,251 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:38:05,251 - __main__ - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-07 14:38:42,105 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:38:42,106 - __main__ - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-07 14:38:55,227 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:38:55,228 - __main__ - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-07 14:38:55,230 - __main__ - INFO - Session ID: ad030f35-ac42-4d54-8786-c38ef89a0241 | User: hi | Bot: Hello! How can I assist you today?
+2024-12-07 14:39:17,996 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:39:17,997 - __main__ - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-07 14:39:17,998 - __main__ - INFO - Session ID: ad030f35-ac42-4d54-8786-c38ef89a0241 | User: hi | Bot: Hello! How can I assist you today?
+2024-12-07 14:41:31,418 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:41:31,419 - __main__ - ERROR - 生成 LLM 回應時出錯: 'Stream' object has no attribute 'choices'
+2024-12-07 14:41:31,421 - __main__ - INFO - Session ID: 4b4096c5-574f-439f-abd9-691b0b7e0b18 | User: dsds | Bot: 抱歉，我現在無法提供回應。
+2024-12-07 14:43:59,610 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:43:59,610 - __main__ - ERROR - 生成 LLM 回應時出錯: 'Stream' object has no attribute 'chunks'
+2024-12-07 14:43:59,612 - __main__ - INFO - Session ID: 4b4096c5-574f-439f-abd9-691b0b7e0b18 | User: dsds | Bot: 抱歉，我現在無法提供回應。
+2024-12-07 14:44:07,961 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:44:07,961 - __main__ - ERROR - 生成 LLM 回應時出錯: 'Stream' object has no attribute 'chunks'
+2024-12-07 14:44:07,963 - __main__ - INFO - Session ID: 4b4096c5-574f-439f-abd9-691b0b7e0b18 | User: dsdssd | Bot: 抱歉，我現在無法提供回應。
+2024-12-07 14:44:36,933 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:44:36,934 - __main__ - INFO - 生成 LLM 回應: Harrison worked at Kensho.
+2024-12-07 14:44:36,936 - __main__ - INFO - Session ID: 4b4096c5-574f-439f-abd9-691b0b7e0b18 | User: dsdssd | Bot: Harrison worked at Kensho.
+2024-12-07 14:44:46,881 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:44:46,882 - __main__ - INFO - 生成 LLM 回應: I'm not sure how to respond to that. Could you please provide more context or clarify your question?
+2024-12-07 14:44:46,884 - __main__ - INFO - Session ID: 4b4096c5-574f-439f-abd9-691b0b7e0b18 | User: dsdssd | Bot: I'm not sure how to respond to that. Could you please provide more context or clarify your question?
+2024-12-07 14:44:57,195 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:44:57,196 - __main__ - INFO - 生成 LLM 回應: Yes, Harrison worked at Kensho.
+2024-12-07 14:44:57,198 - __main__ - INFO - Session ID: 4b4096c5-574f-439f-abd9-691b0b7e0b18 | User: Harrison worked? | Bot: Yes, Harrison worked at Kensho.
+2024-12-07 14:47:04,960 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:47:04,961 - __main__ - INFO - 生成 LLM 回應: Yes, Harrison worked at Kensho.
+2024-12-07 14:47:04,962 - __main__ - INFO - Session ID: 4b4096c5-574f-439f-abd9-691b0b7e0b18 | User: Harrison worked? | Bot: Yes, Harrison worked at Kensho.
+2024-12-07 14:49:40,244 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:49:40,246 - __main__ - INFO - 生成 LLM 回應: Yes, Harrison worked at Kensho.
+2024-12-07 14:50:18,630 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:50:18,631 - __main__ - INFO - 生成 LLM 回應: Yes, Harrison worked at Kensho.
+2024-12-07 14:50:18,632 - __main__ - INFO - Session ID: 4b4096c5-574f-439f-abd9-691b0b7e0b18 | User: Harrison worked? | Bot: Yes, Harrison worked at Kensho.
+2024-12-07 14:50:23,662 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:50:23,663 - __main__ - INFO - 生成 LLM 回應: Yes, Harrison worked at Kensho.
+2024-12-07 14:50:23,665 - __main__ - INFO - Session ID: 4b4096c5-574f-439f-abd9-691b0b7e0b18 | User: Harrison worked? | Bot: Yes, Harrison worked at Kensho.
+2024-12-07 14:59:39,977 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 14:59:39,978 - __main__ - INFO - 生成 LLM 回應: Yes, Harrison worked at Kensho.
+2024-12-07 14:59:39,981 - __main__ - INFO - Session ID: 4b4096c5-574f-439f-abd9-691b0b7e0b18 | User: Harrison worked? | Bot: Yes, Harrison worked at Kensho.
+2024-12-07 15:00:01,876 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 15:00:01,878 - __main__ - INFO - 生成 LLM 回應: Yes, Harrison worked at Kensho.
+2024-12-07 15:00:01,880 - __main__ - INFO - Session ID: 4b4096c5-574f-439f-abd9-691b0b7e0b18 | User: Harrison worked? | Bot: Yes, Harrison worked at Kensho.
+2024-12-07 15:00:46,637 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 15:00:46,638 - __main__ - INFO - 生成 LLM 回應: Yes, Harrison worked at Kensho.
+2024-12-07 15:00:46,640 - __main__ - INFO - Session ID: 4b4096c5-574f-439f-abd9-691b0b7e0b18 | User: Harrison worked? | Bot: Yes, Harrison worked at Kensho.
+2024-12-07 15:04:36,815 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 15:04:36,815 - __main__ - INFO - 生成 LLM 回應: Yes, Harrison worked at Kensho.
+2024-12-07 15:04:36,818 - __main__ - INFO - Session ID: 4b4096c5-574f-439f-abd9-691b0b7e0b18 | User: Harrison worked? | Bot: Yes, Harrison worked at Kensho.
+2024-12-07 15:04:39,850 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 15:04:39,851 - __main__ - INFO - 生成 LLM 回應: Yes, Harrison worked at Kensho.
+2024-12-07 15:04:39,853 - __main__ - INFO - Session ID: 4b4096c5-574f-439f-abd9-691b0b7e0b18 | User: Harrison worked? | Bot: Yes, Harrison worked at Kensho.
+2024-12-07 15:06:39,943 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 15:06:39,944 - __main__ - INFO - 生成 LLM 回應: Yes, Harrison worked at Kensho.
+2024-12-07 15:07:27,189 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 15:07:27,191 - __main__ - INFO - 生成 LLM 回應: Yes, Harrison worked at Kensho.
+2024-12-07 15:07:27,192 - __main__ - INFO - Session ID: 4b4096c5-574f-439f-abd9-691b0b7e0b18 | User: Harrison worked? | Bot: Yes, Harrison worked at Kensho.
+2024-12-07 15:07:43,085 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 15:07:43,087 - __main__ - INFO - 生成 LLM 回應: Yes, Harrison worked at Kensho.
+2024-12-07 15:07:43,089 - __main__ - INFO - Session ID: 4b4096c5-574f-439f-abd9-691b0b7e0b18 | User: Harrison worked? | Bot: Yes, Harrison worked at Kensho.
+2024-12-07 15:11:33,504 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 15:11:33,505 - __main__ - INFO - 生成 LLM 回應: Yes, Harrison worked at Kensho.
+2024-12-07 15:11:33,507 - __main__ - INFO - Session ID: 4b4096c5-574f-439f-abd9-691b0b7e0b18 | User: Harrison worked? | Bot: Yes, Harrison worked at Kensho.
+2024-12-07 15:11:46,518 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 15:11:46,527 - __main__ - INFO - 生成 LLM 回應: It appears your message is incomplete. Please provide more context or specify your question.
+2024-12-07 15:11:46,656 - __main__ - INFO - Session ID: b36c42cb-f59f-4401-8333-ddf20aac8b8d | User: ds | Bot: It appears your message is incomplete. Please provide more context or specify your question.
+2024-12-07 15:11:59,379 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 15:11:59,381 - __main__ - INFO - 生成 LLM 回應: It looks like your message might be incomplete or unclear. Could you please provide more context or clarify your question?
+2024-12-07 15:11:59,382 - __main__ - INFO - Session ID: b36c42cb-f59f-4401-8333-ddf20aac8b8d | User: ds | Bot: It looks like your message might be incomplete or unclear. Could you please provide more context or clarify your question?
+2024-12-07 15:12:20,122 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 15:12:20,123 - __main__ - INFO - 生成 LLM 回應: Could you please clarify what you mean by "ds"? Are you referring to a specific topic or question related to Harrison's work at Kensho?
+2024-12-07 15:12:20,125 - __main__ - INFO - Session ID: b36c42cb-f59f-4401-8333-ddf20aac8b8d | User: ds | Bot: Could you please clarify what you mean by "ds"? Are you referring to a specific topic or question related to Harrison's work at Kensho?
+2024-12-07 15:13:48,936 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 15:13:48,937 - __main__ - INFO - 生成 LLM 回應: Harrison worked at Kensho.
+2024-12-07 15:13:49,580 - __main__ - INFO - Session ID: f3af9108-851b-42eb-8722-784ad9b9a2b0 | User: sdsd | Bot: Harrison worked at Kensho.
+2024-12-07 15:14:05,849 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 15:14:05,850 - __main__ - INFO - 生成 LLM 回應: I will not respond to that input as it does not relate to the information provided about Harrison working at Kensho. Please ask a question related to the given information.
+2024-12-07 15:14:06,306 - root - INFO - Feedback sent successfully to Langsmith!
+2024-12-07 15:14:06,306 - __main__ - INFO - Session ID: f3af9108-851b-42eb-8722-784ad9b9a2b0 | User: sdsd | Bot: I will not respond to that input as it does not relate to the information provided about Harrison working at Kensho. Please ask a question related to the given information.
+2024-12-07 15:15:22,410 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 15:15:22,411 - __main__ - INFO - 生成 LLM 回應: Harrison worked at Kensho.
+2024-12-07 15:15:22,886 - root - INFO - Feedback sent successfully to Langsmith!
+2024-12-07 15:15:22,887 - __main__ - INFO - Session ID: f3af9108-851b-42eb-8722-784ad9b9a2b0 | User: test | Bot: Harrison worked at Kensho.
+2024-12-07 15:17:50,791 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 15:17:50,792 - __main__ - INFO - 生成 LLM 回應: Based on the provided information, Harrison worked at Kensho.
+2024-12-07 15:17:51,248 - __main__ - INFO - Session ID: f3af9108-851b-42eb-8722-784ad9b9a2b0 | User: sdds | Bot: Based on the provided information, Harrison worked at Kensho.
+2024-12-07 15:29:48,252 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 15:29:48,259 - __main__ - INFO - 生成 LLM 回應: It appears there might be a typo or an incomplete query in your message "sdds". Please provide a clear question or statement for me to assist you effectively.
+2024-12-07 15:29:48,707 - __main__ - INFO - Session ID: f4f6bc92-dc93-4f22-8e73-47a8eb4400c6 | User: sdds | Bot: It appears there might be a typo or an incomplete query in your message "sdds". Please provide a clear question or statement for me to assist you effectively.
+2024-12-07 15:29:55,032 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/completions "HTTP/1.1 200 OK"
+2024-12-07 15:30:01,667 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/completions "HTTP/1.1 200 OK"
+2024-12-07 15:30:50,664 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/completions "HTTP/1.1 200 OK"
+2024-12-07 15:32:00,981 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/completions "HTTP/1.1 200 OK"
+2024-12-07 15:35:34,787 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/completions "HTTP/1.1 200 OK"
+2024-12-07 15:39:50,790 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 15:40:58,120 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 15:41:07,555 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 15:41:16,550 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 15:41:28,772 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 15:41:49,422 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 15:49:36,224 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 15:51:51,757 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 15:51:51,758 - __main__ - INFO - 生成 LLM 回應: It seems like there might be a typo or confusion in your message. Could you please clarify or provide more context? I'm here to help with any questions or information you need regarding Harrison's work at Kensho.
+2024-12-07 15:51:52,242 - __main__ - INFO - Session ID: dcdf06fe-6345-4700-9e35-8c34ec1c2c7a | User: sdsd | Bot: It seems like there might be a typo or confusion in your message. Could you please clarify or provide more context? I'm here to help with any questions or information you need regarding Harrison's work at Kensho.
+2024-12-07 15:53:28,987 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 15:53:28,989 - __main__ - INFO - 生成 LLM 回應: It seems like your message might be incomplete or unclear. Could you please provide more details or clarify your question? If you are asking about Harrison's work experience, he worked at Kensho.
+2024-12-07 15:53:29,582 - __main__ - INFO - Session ID: bd3fec54-8e43-46b3-b548-9fc3b182d4ba | User: dsdsds | Bot: It seems like your message might be incomplete or unclear. Could you please provide more details or clarify your question? If you are asking about Harrison's work experience, he worked at Kensho.
+2024-12-07 16:01:59,491 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:01:59,492 - __main__ - INFO - 生成 LLM 回應: It seems like your message is incomplete or unclear. Could you please provide more context or clarify your question?
+2024-12-07 16:02:00,036 - __main__ - INFO - Session ID: bd3fec54-8e43-46b3-b548-9fc3b182d4ba | User: dsds | Bot: It seems like your message is incomplete or unclear. Could you please provide more context or clarify your question?
+2024-12-07 16:04:24,080 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:04:24,082 - __main__ - INFO - 生成 LLM 回應: I can't provide an answer because the input "dssdd" does not form a coherent question or relate to the provided information about Harrison working at Kensho. Please provide a valid question for me to respond to.
+2024-12-07 16:04:24,612 - root - INFO - Feedback sent successfully to Langsmith!
+2024-12-07 16:04:24,613 - __main__ - INFO - Session ID: e6da4860-5c3d-400a-8969-31064087cbda | User: dssdd | Bot: I can't provide an answer because the input "dssdd" does not form a coherent question or relate to the provided information about Harrison working at Kensho. Please provide a valid question for me to respond to.
+2024-12-07 16:04:33,702 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:04:33,703 - __main__ - INFO - 生成 LLM 回應: There is no relevant information provided to answer the query "123." If you have a specific question or need information related to Harrison's work at Kensho, please provide more details.
+2024-12-07 16:04:35,078 - root - INFO - Feedback sent successfully to Langsmith!
+2024-12-07 16:04:35,078 - __main__ - INFO - Session ID: e6da4860-5c3d-400a-8969-31064087cbda | User: 123 | Bot: There is no relevant information provided to answer the query "123." If you have a specific question or need information related to Harrison's work at Kensho, please provide more details.
+2024-12-07 16:04:50,201 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:04:50,202 - __main__ - INFO - 生成 LLM 回應: Yes, Harrison worked at Kensho.
+2024-12-07 16:04:50,590 - root - INFO - Feedback sent successfully to Langsmith!
+2024-12-07 16:04:50,590 - __main__ - INFO - Session ID: e6da4860-5c3d-400a-8969-31064087cbda | User: Harrison worked? | Bot: Yes, Harrison worked at Kensho.
+2024-12-07 16:08:20,523 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:08:20,524 - __main__ - INFO - 生成 LLM 回應: Yes, Harrison worked at Kensho.
+2024-12-07 16:08:21,918 - root - INFO - Feedback sent successfully to Langsmith!
+2024-12-07 16:08:21,918 - __main__ - INFO - Session ID: e6da4860-5c3d-400a-8969-31064087cbda | User: Harrison worked? | Bot: Yes, Harrison worked at Kensho.
+2024-12-07 16:10:04,154 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:10:04,155 - __main__ - INFO - Generated LLM response: It seems like your message might be a typo or incomplete. Could you please clarify your question or provide more details? If you're asking about Harrison's work at Kensho, let me know!
+2024-12-07 16:10:04,157 - __main__ - INFO - Session ID: 43bddf2d-7aee-4e08-9f43-02740e90d4a0 | User: sdds | Bot: It seems like your message might be a typo or incomplete. Could you please clarify your question or provide more details? If you're asking about Harrison's work at Kensho, let me know!
+2024-12-07 16:11:16,445 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:11:16,446 - __main__ - INFO - 生成 LLM 回應: It looks like there might be a typo in your message. Could you please rephrase or clarify your question?
+2024-12-07 16:11:17,251 - root - INFO - Feedback sent successfully to Langsmith!
+2024-12-07 16:11:17,251 - __main__ - INFO - Session ID: e6da4860-5c3d-400a-8969-31064087cbda | User: sdds | Bot: It looks like there might be a typo in your message. Could you please rephrase or clarify your question?
+2024-12-07 16:13:14,295 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:13:14,296 - __main__ - INFO - 生成 LLM 回應: It seems like your message is incomplete or unclear. Could you please provide more context or clarify your question?
+2024-12-07 16:13:14,297 - __main__ - INFO - Session ID: 43bddf2d-7aee-4e08-9f43-02740e90d4a0 | User: sdsdds | Bot: It seems like your message is incomplete or unclear. Could you please provide more context or clarify your question?
+2024-12-07 16:13:22,742 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:13:22,743 - __main__ - INFO - 生成 LLM 回應: I can only provide information based on what has been given to me. If you have any questions related to the information provided, please feel free to ask. Otherwise, I'll need more details or context to help you with your query.
+2024-12-07 16:13:22,744 - __main__ - INFO - Session ID: 201536f7-2d3f-4e4d-a349-d98b626aee01 | User: dssd | Bot: I can only provide information based on what has been given to me. If you have any questions related to the information provided, please feel free to ask. Otherwise, I'll need more details or context to help you with your query.
+2024-12-07 16:13:35,881 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:13:35,882 - __main__ - INFO - 生成 LLM 回應: Harrison worked at Kensho.
+2024-12-07 16:13:35,883 - __main__ - INFO - Session ID: 2df34093-64be-4ed2-a78f-f6c172136e4a | User: 1 | Bot: Harrison worked at Kensho.
+2024-12-07 16:14:41,373 - root - INFO - Feedback sent successfully to Langsmith for run_id=2768c8b2-8782-41ab-bbc7-c0a18efbe9c1 with score=1.0.
+2024-12-07 16:14:46,434 - root - INFO - Feedback sent successfully to Langsmith for run_id=2768c8b2-8782-41ab-bbc7-c0a18efbe9c1 with score=0.0.
+2024-12-07 16:18:57,072 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:18:57,073 - __main__ - INFO - 生成 LLM 回應: I am here to help you with any questions you have about Harrison's employment at Kensho. Please feel free to ask anything related to that topic.
+2024-12-07 16:18:57,074 - __main__ - INFO - Session ID: aec7ea65-540e-4522-8223-0af0556a9651 | User: sdsds | Bot: I am here to help you with any questions you have about Harrison's employment at Kensho. Please feel free to ask anything related to that topic.
+2024-12-07 16:19:01,147 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:19:01,148 - __main__ - INFO - 生成 LLM 回應: It seems like your message is incomplete or unclear. Could you please provide more details or clarify your question?
+2024-12-07 16:19:01,149 - __main__ - INFO - Session ID: aec7ea65-540e-4522-8223-0af0556a9651 | User: sd | Bot: It seems like your message is incomplete or unclear. Could you please provide more details or clarify your question?
+2024-12-07 16:19:26,819 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:19:26,820 - __main__ - INFO - 生成 LLM 回應: It seems like your message is incomplete or unclear. Could you please clarify or provide more context for your question?
+2024-12-07 16:19:26,820 - __main__ - INFO - Session ID: aec7ea65-540e-4522-8223-0af0556a9651 | User: dsds | Bot: It seems like your message is incomplete or unclear. Could you please clarify or provide more context for your question?
+2024-12-07 16:19:29,757 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:19:29,758 - __main__ - INFO - 生成 LLM 回應: It seems like your message was incomplete or unclear. Could you please rephrase or provide more details about your question or what you're looking for?
+2024-12-07 16:19:29,759 - __main__ - INFO - Session ID: aec7ea65-540e-4522-8223-0af0556a9651 | User: dsds | Bot: It seems like your message was incomplete or unclear. Could you please rephrase or provide more details about your question or what you're looking for?
+2024-12-07 16:20:49,812 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:20:49,814 - __main__ - INFO - 生成 LLM 回應: It looks like your message is incomplete or unclear. Could you please provide more details or clarify your question?
+2024-12-07 16:20:49,815 - __main__ - INFO - Session ID: aec7ea65-540e-4522-8223-0af0556a9651 | User: dsds | Bot: It looks like your message is incomplete or unclear. Could you please provide more details or clarify your question?
+2024-12-07 16:20:54,208 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:20:54,209 - __main__ - INFO - 生成 LLM 回應: It seems like your message is incomplete or unclear. Please provide more information or clarify your question.
+2024-12-07 16:20:54,209 - __main__ - INFO - Session ID: aec7ea65-540e-4522-8223-0af0556a9651 | User: dsdsds | Bot: It seems like your message is incomplete or unclear. Please provide more information or clarify your question.
+2024-12-07 16:22:20,320 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:22:20,322 - __main__ - INFO - 生成 LLM 回應: Hello Jacky! How can I assist you today?
+2024-12-07 16:22:20,323 - __main__ - INFO - Session ID: aec7ea65-540e-4522-8223-0af0556a9651 | User: i am jacky | Bot: Hello Jacky! How can I assist you today?
+2024-12-07 16:22:29,935 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:22:29,936 - __main__ - INFO - 生成 LLM 回應: It seems like your message is incomplete. Please provide more details or clarify your question, and I'll do my best to answer it based on the information provided.
+2024-12-07 16:22:29,937 - __main__ - INFO - Session ID: 158013cb-78a5-430f-9640-0cb8b830d726 | User: can you give | Bot: It seems like your message is incomplete. Please provide more details or clarify your question, and I'll do my best to answer it based on the information provided.
+2024-12-07 16:22:34,388 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:22:34,389 - __main__ - INFO - 生成 LLM 回應: It appears there might be a typo or confusion in your message. If you're asking about Harrison's work at Kensho, here is the relevant information:
+
+- Harrison worked at **Kensho**.
+2024-12-07 16:22:34,390 - __main__ - INFO - Session ID: 158013cb-78a5-430f-9640-0cb8b830d726 | User: dsds | Bot: It appears there might be a typo or confusion in your message. If you're asking about Harrison's work at Kensho, here is the relevant information:
+
+- Harrison worked at **Kensho**.
+2024-12-07 16:22:37,672 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:22:37,673 - __main__ - INFO - 生成 LLM 回應: I'm here to help, but I need a clear question to provide an accurate response. Please provide more information or ask a direct question.
+2024-12-07 16:22:37,674 - __main__ - INFO - Session ID: 158013cb-78a5-430f-9640-0cb8b830d726 | User: dsdssd | Bot: I'm here to help, but I need a clear question to provide an accurate response. Please provide more information or ask a direct question.
+2024-12-07 16:24:02,897 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:24:02,898 - __main__ - INFO - 生成 LLM 回應: It seems like you've entered a string of characters, "dsds", which doesn't correspond to any information or question that can be answered from the provided context about Harrison working at Kensho. If you have any questions related to Harrison or Kensho, please feel free to ask!
+2024-12-07 16:24:02,899 - __main__ - INFO - Session ID: a66f56ee-a2a8-40e0-9c3a-a7a26ee8880d | User: dsds | Bot: It seems like you've entered a string of characters, "dsds", which doesn't correspond to any information or question that can be answered from the provided context about Harrison working at Kensho. If you have any questions related to Harrison or Kensho, please feel free to ask!
+2024-12-07 16:24:18,229 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:24:18,237 - __main__ - INFO - 生成 LLM 回應: I can provide information related to Harrison working at Kensho. If you have a specific question about that, feel free to ask. Otherwise, I'll need more context or clarification to provide an accurate response.
+2024-12-07 16:24:18,238 - __main__ - INFO - Session ID: e2b0a6c5-c481-48ad-98cb-8ba35ed8f917 | User: dsds | Bot: I can provide information related to Harrison working at Kensho. If you have a specific question about that, feel free to ask. Otherwise, I'll need more context or clarification to provide an accurate response.
+2024-12-07 16:24:22,128 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:24:22,129 - __main__ - INFO - 生成 LLM 回應: Based on the provided information, Harrison worked at Kensho. However, your query "dsds" does not relate to any specific information given. If you have a question related to the provided information, please rephrase or ask a new question.
+2024-12-07 16:24:22,130 - __main__ - INFO - Session ID: e2b0a6c5-c481-48ad-98cb-8ba35ed8f917 | User: dsds | Bot: Based on the provided information, Harrison worked at Kensho. However, your query "dsds" does not relate to any specific information given. If you have a question related to the provided information, please rephrase or ask a new question.
+2024-12-07 16:25:04,026 - root - INFO - Feedback sent successfully to Langsmith for run_id=8466c248-f908-4aab-91f7-6e35b3aa3294 with score=0.0.
+2024-12-07 16:25:49,181 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:25:49,182 - __main__ - INFO - 生成 LLM 回應: It seems like there was an error or typo in your message. Could you please clarify or rephrase your question? If you have any questions related to Harrison or Kensho, feel free to ask!
+2024-12-07 16:25:49,183 - __main__ - INFO - Session ID: e2b0a6c5-c481-48ad-98cb-8ba35ed8f917 | User: dssdds | Bot: It seems like there was an error or typo in your message. Could you please clarify or rephrase your question? If you have any questions related to Harrison or Kensho, feel free to ask!
+2024-12-07 16:28:16,906 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:28:16,907 - __main__ - INFO - 生成 LLM 回應: Harrison worked at Kensho.
+2024-12-07 16:28:16,908 - __main__ - INFO - Session ID: e2b0a6c5-c481-48ad-98cb-8ba35ed8f917 | User: dssd | Bot: Harrison worked at Kensho.
+2024-12-07 16:28:23,595 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:28:23,596 - __main__ - INFO - 生成 LLM 回應: Harrison worked at Kensho.
+2024-12-07 16:28:23,597 - __main__ - INFO - Session ID: e2b0a6c5-c481-48ad-98cb-8ba35ed8f917 | User: dsds | Bot: Harrison worked at Kensho.
+2024-12-07 16:28:30,800 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:28:30,801 - __main__ - INFO - 生成 LLM 回應: Harrison worked at Kensho.
+2024-12-07 16:28:30,802 - __main__ - INFO - Session ID: e2b0a6c5-c481-48ad-98cb-8ba35ed8f917 | User: dsds | Bot: Harrison worked at Kensho.
+2024-12-07 16:34:27,419 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:34:27,420 - __main__ - INFO - 生成 LLM 回應: It seems like your message is incomplete or unclear. Could you please clarify or provide more details?
+2024-12-07 16:34:27,421 - __main__ - INFO - Session ID: 00b569c0-2e77-4a8d-90c5-218261ce2a1a | User: dssd | Bot: It seems like your message is incomplete or unclear. Could you please clarify or provide more details?
+2024-12-07 16:36:12,035 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:36:12,035 - __main__ - INFO - 生成 LLM 回應: Harrison worked at Kensho.
+2024-12-07 16:36:12,036 - __main__ - INFO - Session ID: 00b569c0-2e77-4a8d-90c5-218261ce2a1a | User: dsds | Bot: Harrison worked at Kensho.
+2024-12-07 16:36:16,928 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:36:16,929 - __main__ - INFO - 生成 LLM 回應: Harrison worked at Kensho.
+2024-12-07 16:36:16,930 - __main__ - INFO - Session ID: 00b569c0-2e77-4a8d-90c5-218261ce2a1a | User: dsds | Bot: Harrison worked at Kensho.
+2024-12-07 16:37:36,348 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:37:36,349 - __main__ - INFO - 生成 LLM 回應: It seems like your message is incomplete or unclear. Could you please provide more context or clarify your question?
+2024-12-07 16:37:36,351 - __main__ - INFO - Session ID: 00b569c0-2e77-4a8d-90c5-218261ce2a1a | User: dssd | Bot: It seems like your message is incomplete or unclear. Could you please provide more context or clarify your question?
+2024-12-07 16:37:53,984 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:37:53,984 - __main__ - INFO - 生成 LLM 回應: Yes, Harrison worked at Kensho.
+2024-12-07 16:37:53,988 - __main__ - INFO - Session ID: 00b569c0-2e77-4a8d-90c5-218261ce2a1a | User: Harrison worked? | Bot: Yes, Harrison worked at Kensho.
+2024-12-07 16:38:06,599 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:38:06,600 - __main__ - INFO - 生成 LLM 回應: Harrison worked at Kensho.
+2024-12-07 16:38:06,602 - __main__ - INFO - Session ID: 00b569c0-2e77-4a8d-90c5-218261ce2a1a | User: Harrison worked123 | Bot: Harrison worked at Kensho.
+2024-12-07 16:38:15,085 - root - INFO - Feedback sent successfully to Langsmith for run_id=0e68029a-32b4-4376-8f13-82909d3f96a6 with score=0.0.
+2024-12-07 16:45:33,682 - __main__ - WARNING - Unknown sender 'None' in chat entry.
+2024-12-07 16:45:33,682 - __main__ - WARNING - Unknown sender 'None' in chat entry.
+2024-12-07 16:45:33,683 - __main__ - WARNING - Unknown sender 'None' in chat entry.
+2024-12-07 16:45:33,684 - __main__ - WARNING - Unknown sender 'None' in chat entry.
+2024-12-07 16:45:33,684 - __main__ - WARNING - Unknown sender 'None' in chat entry.
+2024-12-07 16:45:33,686 - __main__ - WARNING - Unknown sender 'None' in chat entry.
+2024-12-07 16:45:33,686 - __main__ - WARNING - Unknown sender 'None' in chat entry.
+2024-12-07 16:45:33,687 - __main__ - WARNING - Unknown sender 'None' in chat entry.
+2024-12-07 16:45:33,688 - __main__ - WARNING - Unknown sender 'None' in chat entry.
+2024-12-07 16:45:33,688 - __main__ - WARNING - Unknown sender 'None' in chat entry.
+2024-12-07 16:45:33,689 - __main__ - WARNING - Unknown sender 'None' in chat entry.
+2024-12-07 16:45:33,690 - __main__ - WARNING - Unknown sender 'None' in chat entry.
+2024-12-07 16:45:46,439 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:45:46,440 - __main__ - INFO - 生成 LLM 回應: It looks like your message might have been a typo or not fully clear. Could you please clarify or provide more details? If you have a question about Harrison's work at Kensho, feel free to ask!
+2024-12-07 16:45:46,441 - __main__ - INFO - Session ID: ad548b9c-fcad-471e-a959-b994d1a94587 | User: sdds | Bot: It looks like your message might have been a typo or not fully clear. Could you please clarify or provide more details? If you have a question about Harrison's work at Kensho, feel free to ask!
+2024-12-07 16:45:51,430 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:45:51,431 - __main__ - INFO - 生成 LLM 回應: It seems like you typed "dssd" which doesn't appear to be a question or a statement related to the information provided. Could you please clarify or provide a question related to the information that Harrison worked at Kensho?
+2024-12-07 16:45:51,432 - __main__ - INFO - Session ID: ad548b9c-fcad-471e-a959-b994d1a94587 | User: dssd | Bot: It seems like you typed "dssd" which doesn't appear to be a question or a statement related to the information provided. Could you please clarify or provide a question related to the information that Harrison worked at Kensho?
+2024-12-07 16:46:27,813 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:46:27,815 - __main__ - INFO - 生成 LLM 回應: It seems like your message might be incomplete or unclear. Could you please provide more context or clarify your question? If you have a specific question related to Harrison or Kensho, I'm here to help!
+2024-12-07 16:46:27,816 - __main__ - INFO - Session ID: ad548b9c-fcad-471e-a959-b994d1a94587 | User: sdds | Bot: It seems like your message might be incomplete or unclear. Could you please provide more context or clarify your question? If you have a specific question related to Harrison or Kensho, I'm here to help!
+2024-12-07 16:48:17,794 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:48:17,998 - __main__ - ERROR - 生成 LLM 回應時出錯: 'ChatCompletionChunk' object is not subscriptable
+2024-12-07 16:48:18,000 - __main__ - INFO - Session ID: 274937d7-f756-4407-8466-5b63a8ab43b2 | User: dssdsds | Bot: 抱歉，我現在無法提供回應。
+2024-12-07 16:49:08,206 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:49:08,312 - __main__ - ERROR - 生成 LLM 回應時出錯: 'ChatCompletionChunk' object is not subscriptable
+2024-12-07 16:49:08,313 - __main__ - INFO - Session ID: 274937d7-f756-4407-8466-5b63a8ab43b2 | User: sddsdsds | Bot: 抱歉，我現在無法提供回應。
+2024-12-07 16:50:17,140 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:50:18,821 - __main__ - INFO - 生成 LLM 回應: <openai.Stream object at 0x00000197D8E29CD0>
+2024-12-07 16:50:18,822 - __main__ - INFO - Session ID: 148c7136-d719-46b8-a038-818cdf3435cd | User: dsds | Bot: <openai.Stream object at 0x00000197D8E29CD0>
+2024-12-07 16:50:39,195 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:50:39,196 - __main__ - INFO - 生成 LLM 回應: <openai.Stream object at 0x00000197D8D3F3B0>
+2024-12-07 16:50:39,198 - __main__ - INFO - Session ID: 148c7136-d719-46b8-a038-818cdf3435cd | User: dssd | Bot: <openai.Stream object at 0x00000197D8D3F3B0>
+2024-12-07 16:50:50,349 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:50:50,350 - __main__ - ERROR - 生成 LLM 回應時出錯: Attempted to access streaming response content, without having called `read()`.
+2024-12-07 16:50:50,351 - __main__ - INFO - Session ID: 148c7136-d719-46b8-a038-818cdf3435cd | User: dssd | Bot: 抱歉，我現在無法提供回應。
+2024-12-07 16:52:36,393 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:52:36,394 - __main__ - INFO - 生成 LLM 回應: <openai.Stream object at 0x00000197F9E4BFB0>
+2024-12-07 16:52:36,395 - __main__ - INFO - Session ID: 148c7136-d719-46b8-a038-818cdf3435cd | User: dsds | Bot: <openai.Stream object at 0x00000197F9E4BFB0>
+2024-12-07 16:52:51,054 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 16:52:51,055 - __main__ - INFO - 生成 LLM 回應: <openai.Stream object at 0x00000197D6E3C260>
+2024-12-07 16:52:51,056 - __main__ - INFO - Session ID: 148c7136-d719-46b8-a038-818cdf3435cd | User: dsds | Bot: <openai.Stream object at 0x00000197D6E3C260>
+2024-12-07 16:58:17,483 - __main__ - INFO - Session ID: ad548b9c-fcad-471e-a959-b994d1a94587 | User: dsds | Bot: <generator object rag at 0x00000197D70331C0>
+2024-12-07 16:58:20,158 - __main__ - INFO - Session ID: ad548b9c-fcad-471e-a959-b994d1a94587 | User: dssdds | Bot: <generator object rag at 0x00000197D8C1F320>
+2024-12-07 17:01:00,803 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:01:01,568 - __main__ - INFO - 生成 LLM 回應完成
+2024-12-07 17:01:04,628 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:01:04,862 - __main__ - INFO - 生成 LLM 回應完成
+2024-12-07 17:01:12,545 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:01:13,403 - __main__ - INFO - 生成 LLM 回應完成
+2024-12-07 17:01:40,597 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:01:41,107 - __main__ - INFO - 生成 LLM 回應完成
+2024-12-07 17:02:06,985 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:02:08,093 - __main__ - INFO - 生成 LLM 回應完成
+2024-12-07 17:03:10,442 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:03:10,616 - __main__ - INFO - 生成 LLM 回應完成
+2024-12-07 17:03:12,577 - root - INFO - Feedback sent successfully for run_id=1f4180c9-26c2-42e9-819a-733cb5bd0f93 with score=0.0.
+2024-12-07 17:03:33,462 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:03:33,648 - __main__ - INFO - 生成 LLM 回應完成
+2024-12-07 17:03:35,823 - root - INFO - Feedback sent successfully for run_id=a4a7349c-1141-41e7-bfa7-51c5abe650b9 with score=0.0.
+2024-12-07 17:03:45,603 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:03:45,992 - __main__ - INFO - 生成 LLM 回應完成
+2024-12-07 17:03:47,584 - root - INFO - Feedback sent successfully for run_id=37c205e7-19c9-43dd-8a7b-361eb6c522c2 with score=1.0.
+2024-12-07 17:04:59,807 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:05:00,005 - __main__ - INFO - 生成 LLM 回應完成
+2024-12-07 17:05:02,458 - root - INFO - Feedback sent successfully for run_id=a683b77a-cc7d-4e76-8290-78ac14aa8a6b with score=0.0.
+2024-12-07 17:05:06,937 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:05:07,803 - __main__ - INFO - 生成 LLM 回應完成
+2024-12-07 17:05:09,579 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:05:10,375 - __main__ - INFO - 生成 LLM 回應完成
+2024-12-07 17:05:28,477 - root - INFO - Feedback sent successfully for run_id=3e2dcf67-1f63-4f11-bd52-d27ffb5d0a01 with score=0.0.
+2024-12-07 17:06:55,616 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:06:56,281 - __main__ - INFO - 生成 LLM 回應完成
+2024-12-07 17:06:58,000 - root - INFO - Feedback sent successfully for run_id=5ada10b9-4650-4551-ac67-5c0cdb7fee8e with score=1.0.
+2024-12-07 17:11:27,047 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:27,124 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:27,125 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:27,127 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:27,127 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:27,128 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:27,129 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:27,130 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:27,131 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:27,131 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:29,046 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:29,048 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:29,049 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:29,049 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:29,050 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:29,051 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:29,051 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:29,053 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:29,053 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:29,054 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:30,310 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:11:30,312 - __main__ - INFO - Generated LLM response: Harrison worked at Kensho.
+2024-12-07 17:11:30,313 - __main__ - INFO - Session ID: ad548b9c-fcad-471e-a959-b994d1a94587 | User: dssd | Bot: Harrison worked at Kensho.
+2024-12-07 17:11:32,219 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:32,220 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:32,220 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:32,221 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:32,222 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:32,222 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:32,223 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:32,224 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:32,224 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:32,225 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:32,895 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:11:32,897 - __main__ - INFO - Generated LLM response: Harrison worked at Kensho.
+2024-12-07 17:11:32,897 - __main__ - INFO - Session ID: ad548b9c-fcad-471e-a959-b994d1a94587 | User: sdds | Bot: Harrison worked at Kensho.
+2024-12-07 17:11:35,457 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:35,458 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:35,459 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:35,459 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:35,460 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:35,460 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:35,461 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:35,462 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:35,463 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:35,463 - __main__ - WARNING - Unknown role 'unknown' in chat history entry.
+2024-12-07 17:11:36,490 - root - INFO - Feedback sent successfully for run_id=1f835b0e-8d03-4ccf-83e1-3226840c9f32 with score=1.0.
+2024-12-07 17:12:10,792 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:12:10,793 - __main__ - INFO - 生成 LLM 回應: I am not able to process or respond to your request with the given information. Please provide a relevant question or context for me to assist you properly.
+2024-12-07 17:12:10,796 - __main__ - INFO - Session ID: 4b974694-5060-411b-ab58-ac58477d0bf8 | User: dsds | Bot: I am not able to process or respond to your request with the given information. Please provide a relevant question or context for me to assist you properly.
+2024-12-07 17:12:14,983 - root - INFO - Feedback sent successfully to Langsmith for run_id=df399dc0-676e-4c86-971c-747926fb20b3 with score=0.0.
+2024-12-07 17:15:43,981 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:15:43,983 - __main__ - INFO - 生成 LLM 回應: It seems like there might have been a typo or confusion in your message. If you have a specific question or need information, please clarify or rephrase your query.
+2024-12-07 17:15:43,985 - __main__ - INFO - Session ID: 73a56145-44eb-4312-8a50-c07148ad4a7f | User: dsds | Bot: It seems like there might have been a typo or confusion in your message. If you have a specific question or need information, please clarify or rephrase your query.
+2024-12-07 17:15:52,143 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:15:52,144 - __main__ - INFO - 生成 LLM 回應: I'll use the provided information to respond:
+
+Harrison worked at Kensho.
+2024-12-07 17:15:52,147 - __main__ - INFO - Session ID: 73a56145-44eb-4312-8a50-c07148ad4a7f | User: dssd | Bot: I'll use the provided information to respond:
+
+Harrison worked at Kensho.
+2024-12-07 17:16:06,488 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:16:06,490 - __main__ - INFO - 生成 LLM 回應: It seems like your message was incomplete or unclear. Please provide more details or clarify your question, and I'll do my best to assist you based on the information about Harrison working at Kensho.
+2024-12-07 17:16:06,493 - __main__ - INFO - Session ID: 73a56145-44eb-4312-8a50-c07148ad4a7f | User: sdsd | Bot: It seems like your message was incomplete or unclear. Please provide more details or clarify your question, and I'll do my best to assist you based on the information about Harrison working at Kensho.
+2024-12-07 17:16:09,437 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:16:09,438 - __main__ - INFO - 生成 LLM 回應: It looks like your message is incomplete. Could you please provide more details or clarify your question?
+2024-12-07 17:16:09,442 - __main__ - INFO - Session ID: 73a56145-44eb-4312-8a50-c07148ad4a7f | User: dsds | Bot: It looks like your message is incomplete. Could you please provide more details or clarify your question?
+2024-12-07 17:16:30,919 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:16:30,920 - __main__ - INFO - 生成 LLM 回應: I will not provide an answer as your input does not form a coherent question or statement. Please provide a valid query or question for me to respond to.
+2024-12-07 17:16:30,923 - __main__ - INFO - Session ID: 73a56145-44eb-4312-8a50-c07148ad4a7f | User: ddsds | Bot: I will not provide an answer as your input does not form a coherent question or statement. Please provide a valid query or question for me to respond to.
+2024-12-07 17:16:34,083 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:16:34,083 - __main__ - INFO - 生成 LLM 回應: I am not sure how to respond to that. Could you please provide more context or clarify your question?
+2024-12-07 17:16:34,087 - __main__ - INFO - Session ID: 73a56145-44eb-4312-8a50-c07148ad4a7f | User: sdds | Bot: I am not sure how to respond to that. Could you please provide more context or clarify your question?
+2024-12-07 17:18:02,639 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:18:02,640 - __main__ - INFO - 生成 LLM 回應: Unfortunately, your message "dsds" does not form a question or provide clear information to respond to directly. Please provide more context or clarify your question. If you're asking about Harrison's work at Kensho, please specify what you would like to know.
+2024-12-07 17:18:02,643 - __main__ - INFO - Session ID: 4b974694-5060-411b-ab58-ac58477d0bf8 | User: dsds | Bot: Unfortunately, your message "dsds" does not form a question or provide clear information to respond to directly. Please provide more context or clarify your question. If you're asking about Harrison's work at Kensho, please specify what you would like to know.
+2024-12-07 17:18:06,189 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:18:06,194 - __main__ - INFO - 生成 LLM 回應: It appears that the user's query "sddsd" does not relate to the provided information about Harrison working at Kensho. Therefore, I will respond based on the provided context:
+
+Harrison worked at Kensho.
+2024-12-07 17:18:06,198 - __main__ - INFO - Session ID: 4b974694-5060-411b-ab58-ac58477d0bf8 | User: sddsd | Bot: It appears that the user's query "sddsd" does not relate to the provided information about Harrison working at Kensho. Therefore, I will respond based on the provided context:
+
+Harrison worked at Kensho.
+2024-12-07 17:18:14,550 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:18:14,551 - __main__ - INFO - 生成 LLM 回應: It looks like your message might have been a typo or incomplete. Could you please provide more details or clarify your request?
+2024-12-07 17:18:14,553 - __main__ - INFO - Session ID: 4b974694-5060-411b-ab58-ac58477d0bf8 | User: dssd | Bot: It looks like your message might have been a typo or incomplete. Could you please provide more details or clarify your request?
+2024-12-07 17:18:22,120 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:18:22,121 - __main__ - INFO - 生成 LLM 回應: It appears there is no information provided about "dds" in the context given. If you have another question or need information on something else related to the provided context, please ask!
+2024-12-07 17:18:22,123 - __main__ - INFO - Session ID: 4b974694-5060-411b-ab58-ac58477d0bf8 | User: dds | Bot: It appears there is no information provided about "dds" in the context given. If you have another question or need information on something else related to the provided context, please ask!
+2024-12-07 17:19:39,355 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:19:39,356 - __main__ - INFO - 生成 LLM 回應: It seems like there might have been a typo in your query. If you have any questions about Harrison or his work at Kensho, please feel free to ask!
+2024-12-07 17:19:39,356 - __main__ - ERROR - Error generating response: `st.write_stream` expects a generator or stream-like object as input not <class 'str'>. Please use `st.write` instead for this data type.
+2024-12-07 17:19:39,356 - __main__ - INFO - Session ID: 73a56145-44eb-4312-8a50-c07148ad4a7f | User: sddds | Bot: It seems like there might have been a typo in your query. If you have any questions about Harrison or his work at Kensho, please feel free to ask!
+2024-12-07 17:19:54,024 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:19:54,025 - __main__ - INFO - 生成 LLM 回應: It appears that your message "dsds" does not form a coherent question or statement. Please provide a clear question or more context so I can assist you accurately.
+2024-12-07 17:19:54,028 - __main__ - INFO - Session ID: 73a56145-44eb-4312-8a50-c07148ad4a7f | User: dsds | Bot: It appears that your message "dsds" does not form a coherent question or statement. Please provide a clear question or more context so I can assist you accurately.
+2024-12-07 17:22:06,353 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:22:06,354 - __main__ - INFO - 生成 LLM 回應: Harrison worked at Kensho.
+2024-12-07 17:22:06,357 - __main__ - INFO - Session ID: 4b974694-5060-411b-ab58-ac58477d0bf8 | User: dsdsds | Bot: Harrison worked at Kensho.
+2024-12-07 17:22:15,143 - root - INFO - Feedback sent successfully to Langsmith for run_id=81ac0ceb-70dc-4d79-89e6-dd98926c07aa with score=0.0.
+2024-12-07 17:23:24,938 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:23:24,939 - __main__ - INFO - 生成 LLM 回應: It seems like your message is incomplete or unclear. Could you please provide more context or clarify your question? If you're asking about Harrison's work at Kensho, I can tell you that Harrison worked at Kensho.
+2024-12-07 17:23:24,941 - __main__ - INFO - Session ID: 4b974694-5060-411b-ab58-ac58477d0bf8 | User: dsds | Bot: It seems like your message is incomplete or unclear. Could you please provide more context or clarify your question? If you're asking about Harrison's work at Kensho, I can tell you that Harrison worked at Kensho.
+2024-12-07 17:23:27,801 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:23:27,802 - __main__ - INFO - 生成 LLM 回應: It looks like your message is incomplete or unclear. Could you please provide more context or clarify your question?
+2024-12-07 17:23:27,804 - __main__ - INFO - Session ID: 4b974694-5060-411b-ab58-ac58477d0bf8 | User: dssd | Bot: It looks like your message is incomplete or unclear. Could you please provide more context or clarify your question?
+2024-12-07 17:23:59,266 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:23:59,403 - __main__ - INFO - 生成 LLM 回應: 
+2024-12-07 17:23:59,405 - __main__ - INFO - Session ID: 4b974694-5060-411b-ab58-ac58477d0bf8 | User: dsds | Bot: 
+2024-12-07 17:24:02,258 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:24:02,519 - __main__ - INFO - 生成 LLM 回應: 
+2024-12-07 17:24:02,522 - __main__ - INFO - Session ID: 4b974694-5060-411b-ab58-ac58477d0bf8 | User: sdds | Bot: 
+2024-12-07 17:24:23,825 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:24:23,827 - __main__ - INFO - 生成 LLM 回應: It seems like there might be a typo or unclear query in your message "dsds." Could you please clarify your question or provide more details?
+2024-12-07 17:24:23,830 - __main__ - INFO - Session ID: 4b974694-5060-411b-ab58-ac58477d0bf8 | User: dsds | Bot: It seems like there might be a typo or unclear query in your message "dsds." Could you please clarify your question or provide more details?
+2024-12-07 17:24:29,004 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:24:29,005 - __main__ - INFO - 生成 LLM 回應: It seems like you've entered "dsdsds," which doesn't provide me with any context or question to respond to. Could you please clarify or ask a question related to the information provided?
+2024-12-07 17:24:29,008 - __main__ - INFO - Session ID: 4b974694-5060-411b-ab58-ac58477d0bf8 | User: dsdsds | Bot: It seems like you've entered "dsdsds," which doesn't provide me with any context or question to respond to. Could you please clarify or ask a question related to the information provided?
+2024-12-07 17:24:55,444 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-07 17:24:55,445 - __main__ - INFO - 生成 LLM 回應: at Kensho.
+2024-12-07 17:24:55,448 - __main__ - INFO - Session ID: 4b974694-5060-411b-ab58-ac58477d0bf8 | User: Harrison worked | Bot: at Kensho.
+2024-12-07 17:25:07,675 - root - INFO - Feedback sent successfully to Langsmith for run_id=97a93a32-d9dd-4a07-9686-7897978b0367 with score=1.0.
+2024-12-08 10:59:31,211 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 10:59:39,292 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:00:18,221 - config - ERROR - Error sending feedback: One of run_id and project_id must be provided
+2024-12-08 11:00:20,133 - config - ERROR - Error sending feedback: One of run_id and project_id must be provided
+2024-12-08 11:01:31,708 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:01:33,267 - config - ERROR - Error sending feedback: One of run_id and project_id must be provided
+2024-12-08 11:06:25,661 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:06:37,573 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:06:45,829 - config - INFO - Feedback sent for run_id=f916cdbf-026b-431e-9663-dbaa8ae72543 with score=1.0.
+2024-12-08 11:11:33,421 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:11:35,799 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:11:39,611 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:11:41,350 - config - INFO - Feedback sent for run_id=2daf4979-8ae3-47d5-b4c0-d3f3d1a45aac with score=0.0.
+2024-12-08 11:14:55,445 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:14:57,184 - config - INFO - Feedback sent for run_id=829641ff-34ff-4057-b988-045e810485bb with score=1.0.
+2024-12-08 11:19:43,260 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:19:44,890 - config - INFO - Feedback sent for run_id=8ab66923-0514-4813-af2f-556c3414ab81 with score=1.0.
+2024-12-08 11:20:02,031 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:20:02,261 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:20:04,813 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:20:07,130 - config - INFO - Feedback sent for run_id=5e4b296b-ed2a-44c1-9a70-d3b0bb5d752b with score=1.0.
+2024-12-08 11:23:15,644 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:23:15,645 - __main__ - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-08 11:23:18,028 - __main__ - INFO - Feedback sent successfully for run_id=7e100135-4183-407f-8afd-d2d7d7c52cc0 with score=1.0.
+2024-12-08 11:23:47,368 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:23:47,370 - __main__ - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-08 11:23:47,373 - __main__ - INFO - Session ID: 1caf87a0-9440-4757-8b71-cf489aebcbd5 | User: hi | Bot: Hello! How can I assist you today?
+2024-12-08 11:23:51,688 - root - INFO - Feedback sent successfully to Langsmith for run_id=2265cf1f-4e55-436b-8d19-b7eb5c2600b8 with score=0.0.
+2024-12-08 11:25:57,177 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:25:57,179 - __main__ - INFO - 生成 LLM 回應: Hello! How can I assist you with the information about Harrison working at Kensho?
+2024-12-08 11:25:57,181 - __main__ - INFO - Session ID: 1caf87a0-9440-4757-8b71-cf489aebcbd5 | User: hi | Bot: Hello! How can I assist you with the information about Harrison working at Kensho?
+2024-12-08 11:26:04,385 - root - INFO - Feedback sent successfully to Langsmith for run_id=bcb651cd-f1d7-491e-aaa3-e6524565004d with score=0.0.
+2024-12-08 11:26:28,099 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:26:28,100 - __main__ - INFO - 生成 LLM 回應: I will not respond to or engage with inappropriate language. Please ask a respectful question related to the provided information.
+2024-12-08 11:26:28,104 - __main__ - INFO - Session ID: 1caf87a0-9440-4757-8b71-cf489aebcbd5 | User: shit | Bot: I will not respond to or engage with inappropriate language. Please ask a respectful question related to the provided information.
+2024-12-08 11:26:32,950 - root - INFO - Feedback sent successfully to Langsmith for run_id=8b780b70-4306-4d75-b773-d3f526f415b5 with score=0.0.
+2024-12-08 11:30:36,571 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:30:36,573 - __main__ - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-08 11:30:36,574 - __main__ - ERROR - Error generating response: module 'streamlit' has no attribute 'experimental_rerun'
+2024-12-08 11:30:36,574 - __main__ - INFO - Session ID: 1caf87a0-9440-4757-8b71-cf489aebcbd5 | User: hi | Bot: Hello! How can I assist you today?
+2024-12-08 11:30:54,896 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:30:54,899 - __main__ - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-08 11:34:05,718 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:34:05,718 - __main__ - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-08 11:34:07,521 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:34:07,522 - __main__ - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-08 11:35:32,509 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:35:32,510 - __main__ - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-08 11:35:32,513 - __main__ - INFO - Session ID: 6d41f9be-e39e-4f10-b24e-0964730decd3 | User: hi | Bot: Hello! How can I assist you today?
+2024-12-08 11:43:09,241 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:43:09,248 - __main__ - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-08 11:43:14,357 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:43:14,361 - __main__ - INFO - 生成 LLM 回應: I'm here to provide information based on the provided context. If you have any questions or need information, feel free to ask.
+2024-12-08 11:43:50,162 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:43:50,163 - __main__ - INFO - 生成 LLM 回應: Hello! How can I help you today?
+2024-12-08 11:44:03,347 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:44:03,348 - __main__ - INFO - 生成 LLM 回應: Yes, Harrison worked at Kensho.
+2024-12-08 11:51:03,284 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:51:03,285 - __main__ - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-08 11:51:13,921 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:51:13,923 - __main__ - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-08 11:53:47,395 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:53:47,396 - __main__ - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-08 11:53:49,867 - root - INFO - Feedback sent successfully to Langsmith for run_id=4a8592db-fe86-477b-bef4-49fab201af25 with score=0.
+2024-12-08 11:54:17,178 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:54:17,180 - __main__ - INFO - 生成 LLM 回應: I'm glad you think so! How can I assist you further with the information provided?
+2024-12-08 11:54:20,278 - root - INFO - Feedback sent successfully to Langsmith for run_id=16822288-3028-48d0-b0bc-51ca0c49dd0a with score=0.
+2024-12-08 11:54:24,259 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:54:24,260 - __main__ - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-08 11:54:26,059 - root - INFO - Feedback sent successfully to Langsmith for run_id=e99c0339-49b0-402c-8771-eab4b514f78f with score=0.
+2024-12-08 11:55:03,897 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:55:03,898 - __main__ - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-08 11:55:06,319 - root - INFO - Feedback sent successfully to Langsmith for run_id=8b1dd110-d946-4f97-b8f8-205910ed86e5 with score=0.
+2024-12-08 11:55:14,362 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:55:14,363 - __main__ - INFO - 生成 LLM 回應: Hello! How can I assist you today regarding Harrison's work at Kensho?
+2024-12-08 11:55:16,428 - root - INFO - Feedback sent successfully to Langsmith for run_id=ee726865-428b-45ba-a999-47a4a088a927 with score=0.
+2024-12-08 11:56:01,248 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:56:01,250 - __main__ - INFO - 生成 LLM 回應: I am not sure how to respond to that. Could you please provide more context or clarify your question?
+2024-12-08 11:56:03,409 - root - INFO - Feedback sent successfully to Langsmith for run_id=7b304624-2918-4ed7-9e37-93e16072abae with score=0.
+2024-12-08 11:56:39,758 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:56:39,759 - __main__ - INFO - 生成 LLM 回應: It looks like your message was cut off or incomplete. Please provide more information or clarify your question, and I'll do my best to help you!
+2024-12-08 11:56:41,529 - __main__ - ERROR - Invalid feedback value. Feedback not sent.
+2024-12-08 11:57:28,281 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 11:57:28,283 - __main__ - INFO - 生成 LLM 回應: It seems like your message might have been cut off or unclear. Please provide more context or clarify your question for a more accurate response. However, based on the information provided, Harrison worked at Kensho. If you have any further questions about Harrison or Kensho, feel free to ask!
+2024-12-08 11:57:30,622 - root - INFO - Feedback sent successfully to Langsmith for run_id=3716dbb0-6d95-4713-bfaa-aaef3bee1baf with score=1.
+2024-12-08 12:05:49,916 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:05:49,917 - __main__ - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-08 12:05:49,921 - __main__ - INFO - Session ID: 134eb296-d725-43f4-bc44-4123eb984336 | User: hi | Bot: Hello! How can I assist you today?
+2024-12-08 12:05:52,899 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:05:52,901 - __main__ - INFO - 生成 LLM 回應: Harrison worked at Kensho.
+2024-12-08 12:05:52,903 - __main__ - INFO - Session ID: 134eb296-d725-43f4-bc44-4123eb984336 | User: h | Bot: Harrison worked at Kensho.
+2024-12-08 12:05:56,419 - root - INFO - Feedback sent successfully to Langsmith for run_id=a6cbede5-ac05-4450-8bd3-5539ac66fe1c with score=1.0.
+2024-12-08 12:06:09,830 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:06:09,832 - __main__ - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-08 12:06:52,675 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:06:52,676 - __main__ - INFO - 生成 LLM 回應: It seems like your message might have been a typo or an incomplete query. If you have any questions about Harrison's work at Kensho, please feel free to ask!
+2024-12-08 12:07:10,255 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:07:10,257 - __main__ - INFO - 生成 LLM 回應: There is no information provided about "dss" in the given context. If you meant something else or if there's more context you can provide, please let me know!
+2024-12-08 12:07:57,746 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:07:57,747 - __main__ - INFO - 生成 LLM 回應: It looks like your message is incomplete or unclear. Could you please provide more context or clarify your question?
+2024-12-08 12:08:43,249 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:08:43,251 - __main__ - INFO - 生成 LLM 回應: It appears there might be a misunderstanding or a typo in your message. If you have any questions or need information, please feel free to ask!
+2024-12-08 12:09:33,540 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:09:33,542 - __main__ - INFO - 生成 LLM 回應: Harrison worked at Kensho.
+2024-12-08 12:09:43,645 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:09:43,646 - __main__ - INFO - 生成 LLM 回應: It seems like your message is incomplete. Could you please provide more details or clarify your question? If you're asking about Harrison's work at Kensho, let me know!
+2024-12-08 12:09:46,924 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:09:46,925 - __main__ - INFO - 生成 LLM 回應: It seems there might be a typo or confusion in your query. Could you please clarify your question?
+2024-12-08 12:09:52,841 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:09:52,844 - __main__ - INFO - 生成 LLM 回應: I can see that you've mentioned "sdds" but it's unclear what information you're looking for. Here's what I can share:
+
+- Harrison worked at Kensho. 
+
+If you have a specific question or need more information, please let me know!
+2024-12-08 12:12:35,274 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:12:35,275 - __main__ - INFO - 生成 LLM 回應: I am not sure what you mean by "dssd". Could you please rephrase your question or provide more context?
+2024-12-08 12:17:24,390 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:17:24,393 - __main__ - INFO - 生成 LLM 回應: It appears that your message was cut off. Could you please provide more details or clarify your query?
+2024-12-08 12:17:27,797 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:17:27,798 - __main__ - INFO - 生成 LLM 回應: Hello! How can I assist you with the information about Harrison working at Kensho?
+2024-12-08 12:17:41,821 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:17:41,824 - __main__ - INFO - 生成 LLM 回應: Harrison worked at Kensho.
+2024-12-08 12:20:38,156 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:20:38,156 - __main__ - INFO - 生成 LLM 回應: Harrison worked at Kensho.
+2024-12-08 12:23:36,768 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:23:36,770 - __main__ - INFO - 生成 LLM 回應: It seems like there might be a typo or confusion in your query. Could you please clarify or provide more context?
+2024-12-08 12:26:20,131 - __main__ - ERROR - Failed to create run in Langsmith: Client.create_run() missing 2 required positional arguments: 'name' and 'inputs'
+2024-12-08 12:27:04,258 - __main__ - INFO - Created new run with run_id: 0d02c377-fe55-497c-acbf-1f249d1c79ec
+2024-12-08 12:27:05,192 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:27:05,193 - __main__ - INFO - 生成 LLM 回應: It seems like your message was incomplete. Could you please provide more details or clarify your question?
+2024-12-08 12:27:05,193 - __main__ - WARNING - Returned run_id None does not match expected run_id 0d02c377-fe55-497c-acbf-1f249d1c79ec
+2024-12-08 12:29:43,135 - __main__ - ERROR - Failed to create run in Langsmith: Client.create_run() missing 2 required positional arguments: 'name' and 'inputs'
+2024-12-08 12:30:17,603 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:30:17,604 - __main__ - INFO - 生成 LLM 回應: Harrison worked at Kensho.
+2024-12-08 12:30:17,606 - __main__ - INFO - Session ID: 7112fa0a-c2ac-4a20-b29c-7c5540a76d18 | User: ddssd | Bot: Harrison worked at Kensho.
+2024-12-08 12:30:26,889 - root - INFO - Feedback sent successfully to Langsmith for run_id=7e4d4089-4c6c-4ea1-8e71-6b5bc65fb66a with score=1.0.
+2024-12-08 12:33:47,463 - __main__ - ERROR - Error generating response: rag() takes 1 positional argument but 3 were given
+2024-12-08 12:33:47,464 - __main__ - INFO - Session ID: e3cbace5-80e7-4f98-8fc5-e1cf926d647f | User: dsds | Bot: 
+2024-12-08 12:34:19,036 - __main__ - ERROR - Error generating response: rag() takes 1 positional argument but 3 were given
+2024-12-08 12:34:19,037 - __main__ - INFO - Session ID: e3cbace5-80e7-4f98-8fc5-e1cf926d647f | User: dsds | Bot: 
+2024-12-08 12:35:32,813 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:35:33,637 - __main__ - INFO - 生成 LLM 回應: 
+2024-12-08 12:35:33,639 - __main__ - INFO - Session ID: e3cbace5-80e7-4f98-8fc5-e1cf926d647f | User: dsds | Bot: 
+2024-12-08 12:36:05,045 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:36:05,047 - __main__ - INFO - 生成 LLM 回應: It seems like there might be a typo or confusion in your message. Could you please clarify your question or provide more context?
+2024-12-08 12:36:05,049 - __main__ - INFO - Session ID: 6bdd5714-2cd5-4aba-aeb6-48f16cc79d15 | User: sdds | Bot: It seems like there might be a typo or confusion in your message. Could you please clarify your question or provide more context?
+2024-12-08 12:37:38,827 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:37:38,828 - __main__ - INFO - 生成 LLM 回應: I am here to provide information about Harrison working at Kensho. If you have any questions related to that, feel free to ask!
+2024-12-08 12:37:38,830 - __main__ - INFO - Session ID: 7112fa0a-c2ac-4a20-b29c-7c5540a76d18 | User: dsds | Bot: I am here to provide information about Harrison working at Kensho. If you have any questions related to that, feel free to ask!
+2024-12-08 12:40:29,303 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:40:29,304 - __main__ - INFO - 生成 LLM 回應: It seems like your message was incomplete. Could you please provide more details or clarify your question?
+2024-12-08 12:40:29,307 - __main__ - INFO - Session ID: 7112fa0a-c2ac-4a20-b29c-7c5540a76d18 | User: dsds | Bot: It seems like your message was incomplete. Could you please provide more details or clarify your question?
+2024-12-08 12:40:36,331 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:40:36,334 - __main__ - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-08 12:40:36,337 - __main__ - INFO - Session ID: 7112fa0a-c2ac-4a20-b29c-7c5540a76d18 | User: hi | Bot: Hello! How can I assist you today?
+2024-12-08 12:40:50,111 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:40:50,112 - __main__ - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-08 12:40:50,115 - __main__ - INFO - Session ID: 7112fa0a-c2ac-4a20-b29c-7c5540a76d18 | User: hi | Bot: Hello! How can I assist you today?
+2024-12-08 12:41:59,267 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:41:59,268 - __main__ - INFO - 生成 LLM 回應: Harrison worked at Kensho.
+2024-12-08 12:41:59,271 - __main__ - INFO - Session ID: 7112fa0a-c2ac-4a20-b29c-7c5540a76d18 | User: ds | Bot: Harrison worked at Kensho.
+2024-12-08 12:42:10,120 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:42:10,121 - __main__ - INFO - 生成 LLM 回應: It looks like there might be some confusion or a typo in your message. If you have any specific questions about Harrison's work at Kensho or need more information, please provide more details.
+2024-12-08 12:42:10,123 - __main__ - INFO - Session ID: 7112fa0a-c2ac-4a20-b29c-7c5540a76d18 | User: dsds | Bot: It looks like there might be some confusion or a typo in your message. If you have any specific questions about Harrison's work at Kensho or need more information, please provide more details.
+2024-12-08 12:45:15,587 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:45:15,923 - __main__ - INFO - 生成 LLM 回應: It seems like your message was incomplete. Could you please clarify or provide more details?
+2024-12-08 12:45:17,439 - __main__ - INFO - Session ID: 32bc42c2-fb17-46b6-9bc1-8a0df425955d | User: sds | Bot: It seems like your message was incomplete. Could you please clarify or provide more details?
+2024-12-08 12:45:21,539 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:45:21,540 - __main__ - INFO - 生成 LLM 回應: I understand that you're asking about Harrison. Here is the relevant information:
+
+- Harrison worked at Kensho.
+2024-12-08 12:45:23,257 - __main__ - INFO - Session ID: 32bc42c2-fb17-46b6-9bc1-8a0df425955d | User: dsdsds | Bot: I understand that you're asking about Harrison. Here is the relevant information:
+
+- Harrison worked at Kensho.
+2024-12-08 12:47:24,565 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:47:24,565 - __main__ - INFO - 生成 LLM 回應: Harrison worked at Kensho.
+2024-12-08 12:47:24,971 - __main__ - INFO - Session ID: f43433f2-a154-4438-857b-50712fb3c707 | User: sdds | Bot: Harrison worked at Kensho.
+2024-12-08 12:47:36,690 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:47:36,691 - __main__ - INFO - 生成 LLM 回應: Harrison worked at Kensho.
+2024-12-08 12:47:37,097 - __main__ - INFO - Session ID: f43433f2-a154-4438-857b-50712fb3c707 | User: hehe xd | Bot: Harrison worked at Kensho.
+2024-12-08 12:47:41,778 - root - INFO - Feedback sent successfully to Langsmith for run_id=ae7974fe-e547-4284-836c-dc1502dac66e with score=1.0.
+2024-12-08 12:49:25,234 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:49:25,235 - __main__ - INFO - 生成 LLM 回應: It appears that your message "dsds" might be incomplete or unclear. Could you please provide more context or clarify your question? If you're asking about Harrison's work at Kensho, please specify what information you need.
+2024-12-08 12:49:40,028 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:49:40,029 - __main__ - INFO - 生成 LLM 回應: It appears you've entered a non-informative query. Please provide a relevant question or ask something related to Harrison's work at Kensho.
+2024-12-08 12:49:42,940 - __main__ - INFO - Session ID: f43433f2-a154-4438-857b-50712fb3c707 | User: dsds | Bot: It appears you've entered a non-informative query. Please provide a relevant question or ask something related to Harrison's work at Kensho.
+2024-12-08 12:49:51,109 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:49:51,110 - __main__ - INFO - 生成 LLM 回應: It seems like there might be a typo or confusion in your query. If you meant to ask about Harrison's work at Kensho, here is the relevant information:
+
+Harrison worked at Kensho.
+2024-12-08 12:49:54,813 - __main__ - INFO - Session ID: f43433f2-a154-4438-857b-50712fb3c707 | User: dssd | Bot: It seems like there might be a typo or confusion in your query. If you meant to ask about Harrison's work at Kensho, here is the relevant information:
+
+Harrison worked at Kensho.
+2024-12-08 12:51:31,763 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:51:31,765 - __main__ - INFO - 生成 LLM 回應: It looks like your message might have been a typo or not clear. Could you please provide more details or clarify your question?
+2024-12-08 12:51:35,455 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:51:35,457 - __main__ - INFO - 生成 LLM 回應: I'm here to provide information and answer questions based on the data I have. If you have any other questions or need information on a different topic, feel free to ask!
+2024-12-08 12:51:39,000 - __main__ - INFO - Session ID: e7730ec3-c39a-48c6-8170-27c956c01604 | User: are u gay | Bot: I'm here to provide information and answer questions based on the data I have. If you have any other questions or need information on a different topic, feel free to ask!
+2024-12-08 12:51:45,865 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:51:45,866 - __main__ - INFO - 生成 LLM 回應: The provided information does not contain any details about Harrison's sexual orientation. Therefore, based on the given data, there is no information available to answer whether Harrison is gay or not.
+2024-12-08 12:51:50,060 - __main__ - INFO - Session ID: e7730ec3-c39a-48c6-8170-27c956c01604 | User: gay? | Bot: The provided information does not contain any details about Harrison's sexual orientation. Therefore, based on the given data, there is no information available to answer whether Harrison is gay or not.
+2024-12-08 12:52:09,663 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:52:09,665 - __main__ - INFO - 生成 LLM 回應: Harrison worked at Kensho.
+2024-12-08 12:52:10,207 - __main__ - INFO - Session ID: e7730ec3-c39a-48c6-8170-27c956c01604 | User: dsds | Bot: Harrison worked at Kensho.
+2024-12-08 12:52:20,777 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:52:20,778 - __main__ - INFO - 生成 LLM 回應: Harrison worked at Kensho.
+2024-12-08 12:52:21,282 - __main__ - INFO - Session ID: e7730ec3-c39a-48c6-8170-27c956c01604 | User: sdds | Bot: Harrison worked at Kensho.
+2024-12-08 12:52:23,989 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:52:23,991 - __main__ - INFO - 生成 LLM 回應: It seems like your message is incomplete or unclear. Could you please provide more details or clarify your question?
+2024-12-08 12:52:24,495 - __main__ - INFO - Session ID: e7730ec3-c39a-48c6-8170-27c956c01604 | User: ddssd | Bot: It seems like your message is incomplete or unclear. Could you please provide more details or clarify your question?
+2024-12-08 12:52:48,934 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:52:48,936 - __main__ - INFO - 生成 LLM 回應: Harrison worked at **Kensho**.
+2024-12-08 12:52:49,584 - __main__ - INFO - Session ID: e7730ec3-c39a-48c6-8170-27c956c01604 | User: ds | Bot: Harrison worked at **Kensho**.
+2024-12-08 12:52:57,204 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:52:57,205 - __main__ - INFO - 生成 LLM 回應: Harrison worked at Kensho.
+2024-12-08 12:52:57,749 - __main__ - INFO - Session ID: e7730ec3-c39a-48c6-8170-27c956c01604 | User: asdds | Bot: Harrison worked at Kensho.
+2024-12-08 12:53:16,045 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:53:16,047 - __main__ - INFO - 生成 LLM 回應: sds
+2024-12-08 12:53:16,112 - __main__ - INFO - Session ID: e7730ec3-c39a-48c6-8170-27c956c01604 | User: sds | Bot: sds
+2024-12-08 12:53:25,451 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:53:25,515 - __main__ - INFO - 生成 LLM 回應: I'm here to help! What is your question regarding Harrison's work at Kensho?
+2024-12-08 12:53:27,097 - __main__ - INFO - Session ID: e7730ec3-c39a-48c6-8170-27c956c01604 | User: dssd | Bot: I'm here to help! What is your question regarding Harrison's work at Kensho?
+2024-12-08 12:53:30,210 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:53:30,211 - __main__ - INFO - 生成 LLM 回應: I'm here to provide information or answer questions based on the given context. If you have any other questions or need information on a different topic, feel free to ask!
+2024-12-08 12:53:33,777 - __main__ - INFO - Session ID: e7730ec3-c39a-48c6-8170-27c956c01604 | User: are u gay | Bot: I'm here to provide information or answer questions based on the given context. If you have any other questions or need information on a different topic, feel free to ask!
+2024-12-08 12:53:45,450 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:53:45,450 - __main__ - INFO - 生成 LLM 回應: It seems like your message is incomplete or unclear. Could you please provide more details or clarify your question?
+2024-12-08 12:53:47,842 - __main__ - INFO - Session ID: e7730ec3-c39a-48c6-8170-27c956c01604 | User: sdsd | Bot: It seems like your message is incomplete or unclear. Could you please provide more details or clarify your question?
+2024-12-08 12:53:56,697 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:53:56,698 - __main__ - INFO - 生成 LLM 回應: Yes, Harrison worked at Kensho.
+2024-12-08 12:53:57,322 - __main__ - INFO - Session ID: e7730ec3-c39a-48c6-8170-27c956c01604 | User: Harrison worked? | Bot: Yes, Harrison worked at Kensho.
+2024-12-08 12:56:30,905 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:56:30,906 - __main__ - INFO - 生成 LLM 回應: The response does not provide any information relevant to the query "sdds". Therefore, I can only acknowledge the input:
+
+You've entered "sdds". If you have a question or need information, please provide a clear query.
+2024-12-08 12:56:35,426 - __main__ - INFO - Session ID: e7730ec3-c39a-48c6-8170-27c956c01604 | User: sdds | Bot: The response does not provide any information relevant to the query "sdds". Therefore, I can only acknowledge the input:
+
+You've entered "sdds". If you have a question or need information, please provide a clear query.
+2024-12-08 12:56:49,168 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:56:49,169 - __main__ - INFO - 生成 LLM 回應: I'll address your query with the provided information:
+
+Harrison worked at Kensho.
+2024-12-08 12:56:50,860 - __main__ - INFO - Session ID: e7730ec3-c39a-48c6-8170-27c956c01604 | User: sdds | Bot: I'll address your query with the provided information:
+
+Harrison worked at Kensho.
+2024-12-08 12:56:56,058 - root - INFO - Feedback sent successfully to Langsmith for run_id=20e5622f-ca05-4058-8b8f-3dd6bfcf26ee with score=0.0.
+2024-12-08 12:57:33,749 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:57:33,750 - __main__ - INFO - 生成 LLM 回應: There is no information provided about "sd." Could you please clarify your question or provide more context?
+2024-12-08 12:57:35,984 - __main__ - INFO - Session ID: e7730ec3-c39a-48c6-8170-27c956c01604 | User: sd | Bot: There is no information provided about "sd." Could you please clarify your question or provide more context?
+2024-12-08 12:58:49,031 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-08 12:58:49,033 - __main__ - INFO - 生成 LLM 回應: It looks like your message is incomplete or unclear. Could you please provide more context or clarify your question?
+2024-12-08 12:58:51,429 - __main__ - INFO - Session ID: 32bc42c2-fb17-46b6-9bc1-8a0df425955d | User: sdds | Bot: It looks like your message is incomplete or unclear. Could you please provide more context or clarify your question?
+2024-12-09 15:00:27,430 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-09 15:00:27,437 - __main__ - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-09 15:00:28,124 - __main__ - INFO - Session ID: 6a98bf13-8136-42c6-95df-d4195d8ca8fb | User: hi | Bot: Hello! How can I assist you today?
+2024-12-09 15:00:33,334 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-09 15:00:33,335 - __main__ - INFO - 生成 LLM 回應: Goodbye! If you have any more questions in the future, feel free to ask.
+2024-12-09 15:00:34,812 - __main__ - INFO - Session ID: 6a98bf13-8136-42c6-95df-d4195d8ca8fb | User: bye | Bot: Goodbye! If you have any more questions in the future, feel free to ask.
+2024-12-09 15:01:06,211 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-09 15:01:06,212 - __main__ - INFO - 生成 LLM 回應: Unfortunately, there is no information provided about "ds." Could you please clarify or provide more context regarding what "ds" refers to?
+2024-12-09 15:01:09,079 - __main__ - INFO - Session ID: 6a98bf13-8136-42c6-95df-d4195d8ca8fb | User: ds | Bot: Unfortunately, there is no information provided about "ds." Could you please clarify or provide more context regarding what "ds" refers to?
+2024-12-09 15:01:33,580 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-09 15:01:33,609 - __main__ - INFO - 生成 LLM 回應: Harrison worked at **Kensho**.
+2024-12-09 15:01:34,214 - __main__ - INFO - Session ID: 6a98bf13-8136-42c6-95df-d4195d8ca8fb | User: ds | Bot: Harrison worked at **Kensho**.
+2024-12-09 15:02:01,401 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-09 15:02:01,402 - __main__ - INFO - 生成 LLM 回應: The relevant information provided is: "Harrison worked at Kensho." 
+
+However, this information does not directly relate to the query "sdds." Given that there is no connection between the provided information and the query, and the query itself does not form any coherent question or statement, a response cannot be generated from the provided information. If you have any other questions or need clarification, please ask!
+2024-12-09 15:02:10,179 - __main__ - INFO - Session ID: 6a98bf13-8136-42c6-95df-d4195d8ca8fb | User: sdds | Bot: The relevant information provided is: "Harrison worked at Kensho." 
+
+However, this information does not directly relate to the query "sdds." Given that there is no connection between the provided information and the query, and the query itself does not form any coherent question or statement, a response cannot be generated from the provided information. If you have any other questions or need clarification, please ask!
+2024-12-09 15:02:14,007 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-09 15:02:14,044 - __main__ - INFO - 生成 LLM 回應: I am not able to understand your query. Please provide more context or clarify your question.
+2024-12-09 15:02:15,958 - __main__ - INFO - Session ID: 6a98bf13-8136-42c6-95df-d4195d8ca8fb | User: dsds | Bot: I am not able to understand your query. Please provide more context or clarify your question.
+2024-12-09 15:02:23,776 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-09 15:02:23,777 - __main__ - INFO - 生成 LLM 回應: Harrison worked at **Kensho**.
+2024-12-09 15:02:24,383 - __main__ - INFO - Session ID: 6a98bf13-8136-42c6-95df-d4195d8ca8fb | User: sd | Bot: Harrison worked at **Kensho**.
+2024-12-09 15:02:47,154 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-09 15:02:47,155 - __main__ - INFO - 生成 LLM 回應: There is no information provided about "sd" in the given context. If you have any other questions or need information related to Harrison or Kensho, please ask!
+2024-12-09 15:02:50,457 - __main__ - INFO - Session ID: 6a98bf13-8136-42c6-95df-d4195d8ca8fb | User: sd | Bot: There is no information provided about "sd" in the given context. If you have any other questions or need information related to Harrison or Kensho, please ask!
+2024-12-09 15:02:58,098 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-09 15:02:58,099 - __main__ - INFO - 生成 LLM 回應: It seems like there might be a misunderstanding with your input. Please provide a clear question or request regarding the information provided about Harrison working at Kensho.
+2024-12-09 15:02:58,547 - __main__ - INFO - Session ID: 6a98bf13-8136-42c6-95df-d4195d8ca8fb | User: dssd | Bot: It seems like there might be a misunderstanding with your input. Please provide a clear question or request regarding the information provided about Harrison working at Kensho.
+2024-12-09 15:04:19,149 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-09 15:04:19,150 - __main__ - INFO - 生成 LLM 回應: It looks like your message might have been cut off or mistyped. Could you please provide more details or clarify your question?
+2024-12-09 15:04:21,773 - __main__ - INFO - Session ID: 6a98bf13-8136-42c6-95df-d4195d8ca8fb | User: ds | Bot: It looks like your message might have been cut off or mistyped. Could you please provide more details or clarify your question?
+2024-12-09 15:06:43,697 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-09 15:06:44,134 - __main__ - INFO - 生成 LLM 回應: It seems like there might be a typo or unclear query in your message "dsds". Could you please clarify your question or provide more details?
+2024-12-09 15:06:47,029 - __main__ - INFO - Session ID: 6a98bf13-8136-42c6-95df-d4195d8ca8fb | User: dsds | Bot: It seems like there might be a typo or unclear query in your message "dsds". Could you please clarify your question or provide more details?
+2024-12-09 15:10:23,233 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-09 15:10:23,235 - __main__ - INFO - 生成 LLM 回應: I am not sure what you mean by "ds." Could you please provide more context or clarify your question?
+2024-12-09 15:10:25,299 - __main__ - INFO - Session ID: 6a98bf13-8136-42c6-95df-d4195d8ca8fb | User: ds | Bot: I am not sure what you mean by "ds." Could you please provide more context or clarify your question?
+2024-12-09 15:10:36,227 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-09 15:10:36,228 - __main__ - INFO - 生成 LLM 回應: It looks like your message was cut off. Could you please rephrase or provide more information?
+2024-12-09 15:10:38,166 - __main__ - INFO - Session ID: 6a98bf13-8136-42c6-95df-d4195d8ca8fb | User: dsds | Bot: It looks like your message was cut off. Could you please rephrase or provide more information?
+2024-12-09 15:10:55,926 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-09 15:10:55,927 - __main__ - INFO - 生成 LLM 回應: It seems like there might be a typo or confusion in your message. Could you please clarify your question or provide more details?
+2024-12-09 15:10:58,589 - __main__ - INFO - Session ID: 6a98bf13-8136-42c6-95df-d4195d8ca8fb | User: sdds | Bot: It seems like there might be a typo or confusion in your message. Could you please clarify your question or provide more details?
+2024-12-09 15:12:23,109 - root - INFO - Feedback sent successfully to Langsmith for run_id=2412c3f4-889c-451d-a992-05ac2d38d34d with score=1.0.
+2024-12-09 15:16:22,376 - root - INFO - Feedback sent successfully to Langsmith for run_id=f311ec97-656f-4ef0-9578-0570077a9c6e with score=0.0.
+2024-12-09 15:22:19,536 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-09 15:22:19,538 - __main__ - INFO - 生成 LLM 回應: I am here to provide information or answer questions based on the data you provide. If you have any specific questions or need information, feel free to ask!
+2024-12-09 15:22:22,786 - __main__ - INFO - Session ID: 6a98bf13-8136-42c6-95df-d4195d8ca8fb | User: lol | Bot: I am here to provide information or answer questions based on the data you provide. If you have any specific questions or need information, feel free to ask!
+2024-12-09 15:22:32,444 - root - INFO - Feedback sent successfully to Langsmith for run_id=3c3f19ae-9334-4753-8215-aa81758d7a84 with score=0.0. with current_time=2024-12-09T15:22:31.095036+08:00
+2024-12-09 15:24:18,727 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-09 15:24:18,728 - __main__ - INFO - 生成 LLM 回應: It looks like your message was incomplete or unclear. Could you please provide more information or clarify your question?
+2024-12-09 15:24:21,224 - __main__ - INFO - Session ID: 432e8049-079f-4da2-ad9d-33c3d1c481ee | User: dsds | Bot: It looks like your message was incomplete or unclear. Could you please provide more information or clarify your question?
+2024-12-09 15:24:26,760 - root - INFO - Feedback sent successfully to Langsmith for run_id=3a1f00cd-14e8-4941-b26a-a02c356812a9 with score=0.0. with current_time=2024-12-09T15:24:25.436454+08:00
+2024-12-09 15:28:20,613 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-09 15:28:20,615 - __main__ - INFO - 生成 LLM 回應: It seems like your message is incomplete or unclear. Could you please provide more context or clarify your question?
+2024-12-09 15:28:23,013 - __main__ - INFO - Session ID: 432e8049-079f-4da2-ad9d-33c3d1c481ee | User: dsds | Bot: It seems like your message is incomplete or unclear. Could you please provide more context or clarify your question?
+2024-12-09 15:28:25,837 - root - INFO - Feedback sent successfully to Langsmith for run_id=20e29212-6ad8-42a6-b433-4b8dd6cb9d06 with score=1.0. with current_time=2024-12-09T15:28:24.372910+08:00
+2024-12-09 23:03:37,252 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-09 23:03:37,267 - __main__ - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-09 23:03:37,961 - __main__ - INFO - Session ID: 76dfc094-561d-4bcb-b967-8b838d480e5a | User: hi | Bot: Hello! How can I assist you today?
+2024-12-09 23:04:12,229 - root - INFO - Feedback sent successfully to Langsmith for run_id=deec6607-f4f9-41d3-9641-21b8c7f9a2ed with score=1.0. with current_time=2024-12-09T23:04:09.765215+08:00
+2024-12-10 15:36:20,106 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:36:31,372 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-10 15:36:31,372 - openai._base_client - INFO - Retrying request to /chat/completions in 0.467348 seconds
+2024-12-10 15:36:31,920 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:36:32,099 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:36:33,623 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:36:53,803 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:37:06,874 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:37:07,413 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:37:16,766 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:38:24,806 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:38:45,763 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:39:12,839 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:39:18,423 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:40:05,377 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:40:44,780 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:40:46,277 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:41:08,919 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:41:10,342 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:41:22,014 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:41:58,084 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:42:26,050 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:42:43,003 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:43:55,571 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:44:44,753 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:44:44,995 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:45:24,329 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:45:34,816 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:45:40,710 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:45:47,447 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:45:50,173 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:46:14,727 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:46:55,839 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:47:22,494 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:47:22,874 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:47:40,801 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:47:51,831 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:48:02,887 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:48:34,032 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:48:40,541 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:53:36,940 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:56:12,605 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:56:33,202 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:56:53,405 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:57:04,475 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:57:57,684 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:57:59,491 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:58:20,997 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:58:26,236 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:58:50,978 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:58:52,388 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:59:47,738 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 15:59:49,519 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 16:02:44,518 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 16:03:15,131 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 16:03:16,888 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 16:04:17,871 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 16:04:49,970 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 16:05:06,031 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 16:05:20,545 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 16:05:29,061 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-10 16:05:30,776 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 16:38:45,528 - langchain_core.callbacks.manager - WARNING - Error in LangChainTracer.on_chat_model_start callback: 1 validation error for RunTree
+name
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2024-12-11 16:38:48,879 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-11 16:38:48,888 - langchain_core.callbacks.manager - WARNING - Error in LangChainTracer.on_llm_end callback: TracerException('No indexed run ID 3150c4a5-ad36-4d20-b788-ed2e42c2a5e5.')
+2024-12-11 16:38:48,889 - langchain_core.callbacks.manager - WARNING - Error in LangChainTracer.on_tool_start callback: 1 validation error for RunTree
+name
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+2024-12-11 16:38:48,890 - langchain_core.callbacks.manager - WARNING - Error in LangChainTracer.on_tool_end callback: TracerException('No indexed run ID 60f281b9-906c-40a2-b32e-701781104f84.')
+2024-12-11 16:40:58,531 - root - ERROR - Error retrieving feedback data: 1 validation error for Feedback
+trace_id
+  Field required [type=missing, input_value={'created_at': '2024-12-0...xtra': {'error': False}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2024-12-11 16:41:19,876 - root - ERROR - Error retrieving feedback data: 1 validation error for Feedback
+trace_id
+  Field required [type=missing, input_value={'created_at': '2024-12-0...xtra': {'error': False}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2024-12-11 16:41:59,313 - root - ERROR - Error retrieving feedback data: 1 validation error for Feedback
+trace_id
+  Field required [type=missing, input_value={'created_at': '2024-12-0...xtra': {'error': False}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2024-12-12 13:22:03,912 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 13:22:03,923 - __main__ - INFO - 生成 LLM 回應: Hello! How can I assist you today?
+2024-12-12 13:22:04,614 - __main__ - INFO - Session ID: ad12d722-f82b-46a7-b500-3b58b4783fd7 | User: hi | Bot: Hello! How can I assist you today?
+2024-12-12 13:22:12,172 - root - INFO - Feedback sent successfully to Langsmith for run_id=bbf5d6d6-c9c8-4069-9c67-d8ea26806841 with score=0.0. Current time=2024-12-12T13:22:10.577075+08:00
+2024-12-12 13:26:23,988 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 13:26:23,990 - __main__ - INFO - 生成 LLM 回應: Harrison worked at Kensho.
+2024-12-12 13:26:24,515 - __main__ - INFO - Session ID: ad12d722-f82b-46a7-b500-3b58b4783fd7 | User: f | Bot: Harrison worked at Kensho.
+2024-12-12 13:26:27,370 - root - INFO - Feedback sent successfully to Langsmith for run_id=cd583740-016a-40cd-a2d8-76cb3d67d46a with score=1.0. Current time=2024-12-12T13:26:26.054451+08:00
+2024-12-12 13:26:54,282 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 13:26:54,283 - __main__ - INFO - 生成 LLM 回應: It seems like your message might have been cut off or incomplete. Could you please provide more details or clarify your question?
+2024-12-12 13:26:56,950 - __main__ - INFO - Session ID: ad12d722-f82b-46a7-b500-3b58b4783fd7 | User: ds | Bot: It seems like your message might have been cut off or incomplete. Could you please provide more details or clarify your question?
+2024-12-12 13:27:00,404 - root - INFO - Feedback sent successfully to Langsmith for run_id=f8f62a1d-62f3-4a90-bdee-3d09a5b4b825 with score=1.0. Current time=2024-12-12T13:26:57.903657+08:00
+2024-12-12 13:27:41,497 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 13:27:41,498 - __main__ - INFO - 生成 LLM 回應: I'm here to provide information based on the given context. If you have any questions related to Harrison's work at Kensho, feel free to ask!
+2024-12-12 13:27:43,015 - __main__ - INFO - Session ID: ad12d722-f82b-46a7-b500-3b58b4783fd7 | User: dsds | Bot: I'm here to provide information based on the given context. If you have any questions related to Harrison's work at Kensho, feel free to ask!
+2024-12-12 13:27:48,830 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 13:27:48,831 - __main__ - INFO - 生成 LLM 回應: Harrison worked at **Kensho**.
+2024-12-12 13:27:48,880 - __main__ - INFO - Session ID: ad12d722-f82b-46a7-b500-3b58b4783fd7 | User: s | Bot: Harrison worked at **Kensho**.
+2024-12-12 13:27:59,229 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 13:27:59,231 - __main__ - INFO - 生成 LLM 回應: I have no information regarding "sd." Could you please provide more context or clarify your question?
+2024-12-12 13:28:00,110 - __main__ - INFO - Session ID: ad12d722-f82b-46a7-b500-3b58b4783fd7 | User: sd | Bot: I have no information regarding "sd." Could you please provide more context or clarify your question?
+2024-12-12 13:32:27,045 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-3477' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\jacky\Desktop\wilson-project\venv\Lib\site-packages\tornado\websocket.py:1086> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\jacky\Desktop\wilson-project\venv\Lib\site-packages\tornado\websocket.py", line 1088, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\jacky\Desktop\wilson-project\venv\Lib\site-packages\tornado\websocket.py", line 1090, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2024-12-12 13:38:42,527 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 13:38:42,587 - __main__ - INFO - 生成 LLM 回應: Harrison worked at Kensho.
+2024-12-12 13:38:43,110 - __main__ - INFO - Session ID: 08f30940-cb6e-4ad2-b429-8431b8678461 | User: sdds | Bot: Harrison worked at Kensho.
+2024-12-12 13:38:46,173 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 13:38:46,174 - __main__ - INFO - 生成 LLM 回應: It appears you've entered "sd," which doesn't correspond to any information provided about Harrison working at Kensho. If you have a specific question or need information related to Harrison's work at Kensho, please provide more details.
+2024-12-12 13:38:51,102 - __main__ - INFO - Session ID: 08f30940-cb6e-4ad2-b429-8431b8678461 | User: sd | Bot: It appears you've entered "sd," which doesn't correspond to any information provided about Harrison working at Kensho. If you have a specific question or need information related to Harrison's work at Kensho, please provide more details.
+2024-12-12 13:39:00,368 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 13:39:00,370 - __main__ - INFO - 生成 LLM 回應: It seems like there might have been a typo in your message. Could you please clarify your question or provide more details? If you are asking about Harrison's work experience, he worked at **Kensho**.
+2024-12-12 13:39:01,504 - __main__ - INFO - Session ID: 08f30940-cb6e-4ad2-b429-8431b8678461 | User: sdsd | Bot: It seems like there might have been a typo in your message. Could you please clarify your question or provide more details? If you are asking about Harrison's work experience, he worked at **Kensho**.
+2024-12-12 13:54:39,718 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 13:54:39,770 - utils.logger - INFO - Session ID: 5abca46c-5d2f-42da-829e-1a276043fca4 | User: hi | Bot: Hello! How can I help you today?
+2024-12-12 13:54:45,796 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 13:54:45,839 - utils.logger - INFO - Session ID: 5abca46c-5d2f-42da-829e-1a276043fca4 | User: 88 | Bot: Harrison worked at Kensho.
+2024-12-12 13:54:50,358 - utils.logger - INFO - Feedback sent successfully to Langsmith for run_id=6eee66f3-2aca-4885-9752-72d565f56a99 with score=1.0. Current time=2024-12-12T13:54:49.639958+08:00
+2024-12-12 13:55:02,556 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 13:55:02,599 - utils.logger - INFO - Session ID: 5abca46c-5d2f-42da-829e-1a276043fca4 | User: dsds | Bot: Harrison worked at Kensho.
+2024-12-12 13:58:18,390 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 13:58:18,722 - utils.logger - INFO - Session ID: 5abca46c-5d2f-42da-829e-1a276043fca4 | User: dssd | Bot: It seems like your message got cut off or was incomplete. Please provide more details or clarify your question, and I'll do my best to assist you based on the information about Harrison working at Kensho.
+2024-12-12 13:58:26,667 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 13:58:26,712 - utils.logger - INFO - Session ID: 5abca46c-5d2f-42da-829e-1a276043fca4 | User: dsds | Bot: Harrison worked at Kensho.
+2024-12-12 13:58:32,455 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 13:58:32,498 - utils.logger - INFO - Session ID: 5abca46c-5d2f-42da-829e-1a276043fca4 | User: dssd | Bot: Harrison worked at Kensho.
+2024-12-12 13:59:17,215 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 13:59:17,399 - utils.logger - INFO - Session ID: 2290ec98-1b2b-4f7b-8c39-fa41a203675d | User: dssd | Bot: It seems like there might be a typo or confusion in your query. Could you please clarify or rephrase your question?
+2024-12-12 14:07:03,953 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 14:08:09,927 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 14:08:10,051 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 14:08:22,148 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 14:08:26,916 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 14:08:38,233 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 14:13:42,362 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 14:14:33,966 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 14:14:35,193 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 14:16:07,314 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 14:16:28,206 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 14:16:58,251 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 14:17:14,292 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 14:17:31,757 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 14:18:50,125 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 14:21:32,607 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 14:21:36,391 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 14:23:10,529 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 14:23:12,300 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 14:23:36,018 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-12 14:23:37,780 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-22 11:21:31,708 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-22 11:24:48,111 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-22 11:31:48,196 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-22 11:32:50,849 - utils.logger - INFO - Feedback sent to LangSmith: run_id=77065e60-7a44-481d-8bd3-8a314ca1a07b, score=1, time=2024-12-22T11:32:50.177247+08:00
+2024-12-22 11:32:50,849 - __main__ - INFO - User feedback: thumbs with score: 1, feedback text: hi
+2024-12-22 11:34:33,624 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-22 11:34:33,690 - utils.logger - INFO - Session ID: 64547473-a32b-458e-b3a7-dd4d2992e365 | User: hi | Bot: Hello! How can I assist you today?
+2024-12-22 11:34:37,790 - utils.logger - INFO - Feedback sent successfully to Langsmith for run_id=b7551dfe-7464-483f-8c97-861c35378bc5 with score=1.0. Current time=2024-12-22T11:34:36.841522+08:00
+2024-12-22 11:35:56,229 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-22 11:35:56,399 - utils.logger - INFO - Session ID: 64547473-a32b-458e-b3a7-dd4d2992e365 | User: dsds | Bot: I am not sure how to respond to "dsds". Could you please clarify your question or provide more context?
+2024-12-22 11:35:58,882 - utils.logger - INFO - Feedback sent successfully to Langsmith for run_id=c488f912-8146-4049-975c-e1e258fa2319 with score=1.0. Current time=2024-12-22T11:35:58.063448+08:00
+2024-12-22 11:38:41,411 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-22 11:38:41,455 - utils.logger - INFO - Session ID: 64547473-a32b-458e-b3a7-dd4d2992e365 | User: ssd | Bot: Harrison worked at Kensho.
+2024-12-22 11:39:02,783 - utils.logger - INFO - Feedback sent successfully to Langsmith for run_id=36fcbf89-18d1-4046-9085-430b7f90fa64 with score=1.0. Current time=2024-12-22T11:39:01.585132+08:00
+2024-12-22 11:42:18,615 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-22 11:42:18,827 - utils.logger - INFO - Session ID: 64547473-a32b-458e-b3a7-dd4d2992e365 | User: sdsd | Bot: It seems like your message is incomplete or unclear. Could you please provide more context or clarify your query?
+2024-12-22 11:42:22,211 - utils.logger - INFO - Feedback sent successfully to Langsmith for run_id=8d18d9d4-011a-493b-bb3f-ad9f9c5d969e with score=0.0. Current time=2024-12-22T11:42:21.191754+08:00
+2024-12-22 11:48:33,021 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-22 11:48:33,157 - utils.logger - INFO - Session ID: 64547473-a32b-458e-b3a7-dd4d2992e365 | User: sdds | Bot: There is no information provided about "sdds". However, Harrison worked at Kensho.
+2024-12-22 11:48:40,954 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-22 11:48:41,216 - utils.logger - INFO - Session ID: 64547473-a32b-458e-b3a7-dd4d2992e365 | User: sdds | Bot: It seems like there might have been a typo or confusion in your message. Please provide more context or clarify your question, and I'll do my best to assist you.
+2024-12-22 11:48:45,839 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-22 11:48:46,897 - utils.logger - INFO - Session ID: 64547473-a32b-458e-b3a7-dd4d2992e365 | User: ds | Bot: Here is some information about Harrison's work experience:
+
+- **Company**: Kensho
+- **Position**: Software Engineer
+- **Duration**: January 2018 - Present
+- **Responsibilities**: 
+  - Developed and maintained machine learning models for financial data analysis.
+  - Worked on natural language processing projects to improve data extraction and analysis capabilities.
+  - Collaborated with data scientists and financial analysts to implement predictive models for market trends.
+  - Contributed to the development of a scalable data pipeline for real-time data processing.
+
+Please let me know if you need more details or have any other questions!
+2024-12-22 11:49:03,709 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-22 11:49:03,755 - utils.logger - INFO - Session ID: 64547473-a32b-458e-b3a7-dd4d2992e365 | User: ds | Bot: Harrison worked at Kensho.
+2024-12-22 11:49:06,435 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-22 11:49:06,616 - utils.logger - INFO - Session ID: 64547473-a32b-458e-b3a7-dd4d2992e365 | User: sd | Bot: It seems like your message is incomplete. Could you please provide more details or clarify your question?
+2024-12-22 11:53:10,872 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-22 11:53:11,003 - utils.logger - ERROR - Error generating response: `st.button()` can't be used in an `st.form()`.
+
+For more information, refer to the
+[documentation for forms](https://docs.streamlit.io/develop/api-reference/execution-flow/st.form).
+
+2024-12-22 11:53:11,003 - utils.logger - INFO - Session ID: 64547473-a32b-458e-b3a7-dd4d2992e365 | User: sdds | Bot: The response is not clear. Could you please rephrase or provide more context?
+2024-12-22 11:53:32,488 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-22 11:53:32,535 - utils.logger - INFO - Session ID: 64547473-a32b-458e-b3a7-dd4d2992e365 | User: dsdds | Bot: Harrison worked at Kensho.
+2024-12-22 11:53:36,546 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-22 11:53:36,749 - utils.logger - INFO - Session ID: 64547473-a32b-458e-b3a7-dd4d2992e365 | User: ds | Bot: It looks like your message was cut off or unclear. Could you please provide more context or clarify your question?
+2025-02-03 16:42:02,615 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-02-03 16:42:02,616 - openai._base_client - INFO - Retrying request to /chat/completions in 0.498730 seconds
+2025-02-03 16:42:03,875 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-02-03 16:42:03,876 - openai._base_client - INFO - Retrying request to /chat/completions in 0.901095 seconds
+2025-02-03 16:42:05,166 - httpx - INFO - HTTP Request: POST https://api.x.ai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-02-07 11:12:37,237 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-02-07 11:14:50,746 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
