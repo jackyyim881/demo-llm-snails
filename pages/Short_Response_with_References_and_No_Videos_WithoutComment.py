@@ -46,40 +46,6 @@ def display_chat_interface(response_type):
 
         # No videos to display for this response type
 
-        # Append bot response to the conversation
-        if bot_response:
-            st.session_state[chat_history_key].append(
-                {"role": "assistant", "content": bot_response})
-
-            fake_likes = 100
-
-            st.markdown(
-                "<h4 style='font-size: 14px;'>How helpful was this response?</h4>", unsafe_allow_html=True)
-
-            with st.form('feedback_form', clear_on_submit=True):
-                st.form_submit_button(label=f"Like ({fake_likes})")
-                feedback = streamlit_feedback(
-                    feedback_type="thumbs",
-                    optional_text_label="[Optional] Please provide an explanation",
-                    key="fb_k"
-                )
-                submit = st.form_submit_button(label='Submit Feedback')
-
-                # Capture feedback and store it in Langsmith (and locally)
-                if submit and feedback:
-                    # Generate a unique run_id for traceability
-                    run_id = str(uuid.uuid4())
-
-                    try:
-                        handle_feedback(response_type, user_input,
-                                        bot_response, feedback, run_id)
-                        logger.info(
-                            f"Feedback logged successfully for run_id: {run_id}")
-
-                        st.success("Thank you for your feedback!")
-                    except Exception as e:
-                        st.error(f"Error logging feedback: {e}")
-
 
 def main():
     controller = CookieController()
@@ -94,13 +60,12 @@ def main():
 
     st.header(f"{response_type}")
     st.title("How Long Do Snails Sleep? 🐌")
-    with st.expander("Click here for Chatbot Description"):
+    with st.expander("Chatbot Description"):
         st.markdown(
             """
             **Chatbot Description:**
 
-            This chatbot is designed to answer students' questions on snail sleep habits. It provides detailed responses by streaming answers word-by-word. 
-            The chatbot also features interactive feedback options, which allow students to rate the usefulness of each response.
+            This intelligent tool is designed to provide detailed answers to your questions about snail sleep habits. Once you ask a question, the chatbot will respond by streaming its answer word-by-word, creating a dynamic and engaging experience. In addition, where applicable, relevant video references are displayed to offer extra visual context about the topic. Dive in and discover fascinating facts about snails in an interactive way!
             """
         )
     display_chat_interface(response_type)

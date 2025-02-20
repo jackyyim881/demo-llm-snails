@@ -117,24 +117,6 @@ def display_chat_interface(response_type):
                 "<h4 style='font-size: 14px;'>How helpful was this response?</h4>", unsafe_allow_html=True)
 
             # Trigger the feedback interface after response
-            display_feedback_form()
-
-
-def display_feedback_form():
-    fake_likes = 123  # Fake number of likes
-
-    with st.form('feedback_form', clear_on_submit=True):
-        submit = st.form_submit_button(label=f"Like ({fake_likes})")
-        feedback = streamlit_feedback(
-            feedback_type="thumbs",
-            optional_text_label="[Optional] Please provide additional feedback",
-            key="fb_k"
-        )
-        st.form_submit_button(
-            'Submit Feedback',
-            on_click=handle_feedback,
-            type="primary"
-        )
 
 
 def main():
@@ -147,13 +129,13 @@ def main():
     response_type = "Short Response with References and Videos"
     st.header(f"{response_type}")
     st.title("How Long Do Snails Sleep? 🐌")
-    with st.expander("Click here for Chatbot Description"):
+
+    with st.expander("Chatbot Description"):
         st.markdown(
             """
             **Chatbot Description:**
 
-            This chatbot is designed to answer students' questions on snail sleep habits. It provides detailed responses by streaming answers word-by-word. 
-            The chatbot also features interactive feedback options, which allow students to rate the usefulness of each response.
+This intelligent tool is designed to provide detailed answers to your questions about snail sleep habits. Once you ask a question, the chatbot will respond by streaming its answer word-by-word, creating a dynamic and engaging experience. In addition, where applicable, relevant video references are displayed to offer extra visual context about the topic. Dive in and discover fascinating facts about snails in an interactive way!
             """
         )
     display_chat_interface(response_type)

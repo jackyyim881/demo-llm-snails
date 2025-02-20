@@ -13,6 +13,15 @@ def main():
 
     # Title and intro text
     st.title("How Long Do Snails Sleep? 🐌")
+    st.text("Welcome to the Snail Sleep Chatbot! Ask me anything about snail sleep.")
+    # Description of the chatbot
+    st.markdown(
+        """
+        This chatbot can answer questions related to snail sleep. 
+        To start, type your question in the chatbox below and hit Enter.
+        """
+    )
+    st.markdown("---")
 
 
 if __name__ == "__main__":

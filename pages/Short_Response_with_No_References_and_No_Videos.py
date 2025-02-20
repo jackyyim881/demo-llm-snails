@@ -94,7 +94,15 @@ def main():
     response_type = "Short Response with No References and No Videos"
 
     st.title("How Long Do Snails Sleep? 🐌")
+    with st.expander("Click here for Chatbot Description"):
+        st.markdown(
+            """
+            **Chatbot Description:**
 
+            This chatbot is designed to answer students' questions on snail sleep habits. It provides detailed responses by streaming answers word-by-word. 
+            The chatbot also features interactive feedback options, which allow students to rate the usefulness of each response.
+            """
+        )
     st.header(f"{response_type}")
 
     display_chat_interface(response_type)
