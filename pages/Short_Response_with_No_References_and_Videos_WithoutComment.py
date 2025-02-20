@@ -65,7 +65,7 @@ def main():
 
     controller = CookieController()
 
-    st.session_state["current_page"] = "Short_Response_with_No_References_and_Videos"
+    st.session_state["current_page"] = "Short_Response_with_No_References_and_Videos_WithoutComment"
 
     st.session_state["response_type"] = "Short Response with No References and Videos"
 

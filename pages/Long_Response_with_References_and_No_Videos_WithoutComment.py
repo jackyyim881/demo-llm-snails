@@ -56,7 +56,7 @@ def display_chat_interface(response_type):
 def main():
     controller = CookieController()
 
-    st.session_state["current_page"] = "Long_Response_with_References_and_No_Videos"
+    st.session_state["current_page"] = "Long_Response_with_References_and_No_Videos_WithoutComment"
 
     st.session_state["response_type"] = "Long Response with References and No Videos"
 

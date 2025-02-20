@@ -122,7 +122,7 @@ def display_chat_interface(response_type):
 def main():
     controller = CookieController()
 
-    st.session_state['current_page'] = "Short_Response_with_References_and_Videos.py"
+    st.session_state['current_page'] = "Short_Response_with_References_and_Videos_WithoutComment"
     st.session_state['response_type'] = "Short Response with References and Videos"
     controller.set('cookie_name', 'user_cookie')
 
@@ -135,7 +135,7 @@ def main():
             """
             **Chatbot Description:**
 
-This intelligent tool is designed to provide detailed answers to your questions about snail sleep habits. Once you ask a question, the chatbot will respond by streaming its answer word-by-word, creating a dynamic and engaging experience. In addition, where applicable, relevant video references are displayed to offer extra visual context about the topic. Dive in and discover fascinating facts about snails in an interactive way!
+            This intelligent tool is designed to provide detailed answers to your questions about snail sleep habits. Once you ask a question, the chatbot will respond by streaming its answer word-by-word, creating a dynamic and engaging experience. In addition, where applicable, relevant video references are displayed to offer extra visual context about the topic. Dive in and discover fascinating facts about snails in an interactive way!
             """
         )
     display_chat_interface(response_type)

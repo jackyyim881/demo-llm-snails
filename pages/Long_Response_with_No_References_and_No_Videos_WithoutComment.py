@@ -58,7 +58,7 @@ def main():
 
     controller = CookieController()
 
-    st.session_state["current_page"] = "Long_Response_with_No_References_and_No_Videos"
+    st.session_state["current_page"] = "Long_Response_with_No_References_and_No_Videos_WithoutComment"
 
     st.session_state["response_type"] = "Long Response with No References and No Videos"
 
@@ -66,7 +66,7 @@ def main():
 
     cookies = controller.getAll()
 
-    response_type = "Long Response with No References and No Videos"
+    response_type = "Long Response with No References and No Videos (Without Comment)"
 
     st.header(f"{response_type}")
     st.title("How Long Do Snails Sleep? 🐌")
