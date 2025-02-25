@@ -3,6 +3,8 @@ import time
 
 st.title("Chatbot - Long Version 1")
 
+st.write("low accuracy")
+
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
