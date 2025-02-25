@@ -42,13 +42,6 @@ def main():
     <div class="content">
         <h2>Welcome to Snail Sleep Trivia!</h2>
         <p>This is a casual, extracurricular activity where we explore weird and wonderful facts about snail sleep—powered by AI! Since it’s not graded, relax and enjoy the quirky side of science. Here are some tidbits to get you started:</p>
-        <h3>Fun Facts:</h3>
-        <ul>
-            <li>Snails can sleep for up to <b>3 years</b> in extreme conditions—talk about a power nap!</li>
-            <li>They don’t snore, but they do seal themselves in their shells with slime.</li>
-            <li>A snail might nap 15 hours a day, making them the ultimate chillers of the animal kingdom.</li>
-        </ul>
-        <p>Dive into this ungraded fun and share your own snail sleep trivia with friends!</p>
     </div>
     """, unsafe_allow_html=True)
 

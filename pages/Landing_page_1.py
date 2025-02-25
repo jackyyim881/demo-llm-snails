@@ -42,13 +42,6 @@ def main():
     <div class="content">
         <h2>Assignment Overview</h2>
         <p>This project explores the fascinating topic of snail sleep, leveraging AI tools to create an informative and engaging study. As a major assessment contributing 50% to the final grade, this assignment requires a deep dive into the biology, behavior, and ecological significance of how snails rest. The use of AI is permitted, making this an innovative blend of technology and science.</p>
-        <h3>Key Objectives:</h3>
-        <ul>
-            <li>Investigate the duration and patterns of snail sleep.</li>
-            <li>Analyze environmental factors affecting snail rest cycles.</li>
-            <li>Present findings in a clear, professional format.</li>
-        </ul>
-        <p>Explore this landing page to understand the scope of the assignment and its importance in the course!</p>
     </div>
     """, unsafe_allow_html=True)
 
