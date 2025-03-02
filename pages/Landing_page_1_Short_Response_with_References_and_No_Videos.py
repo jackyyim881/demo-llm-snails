@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit_js_eval import get_page_location
 # Set page configuration
 st.set_page_config(
     page_title="Snail Sleep Assignment",
