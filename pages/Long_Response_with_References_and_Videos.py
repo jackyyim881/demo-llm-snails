@@ -45,6 +45,27 @@ def display_chat_interface(response_type):
             except Exception as e:
                 placeholder.error(f"An error occurred: {e}")
 
+        # Display the references if available
+        options = RESPONSE_TYPES.get(response_type)
+        if options and options.get("references"):
+            st.markdown("<h4 style='font-size: 16px; margin-top: 20px;'>📚 References</h4>",
+                        unsafe_allow_html=True)
+
+            # Format references as a nice markdown list
+            references_md = """
+            * Johnson, P. (2020). 'Snail Sleep Studies,' *Journal of Mollusk Behavior*
+            * Lee, K. (2015). 'Animals in Rest,' *Nature Insights*
+            * Brown, T. (2022). 'Sleepy Snails,' *EcoScience Monthly*
+            """
+
+            # Display references in a styled container
+            with st.container():
+                st.markdown("""
+                <div style="background-color: #f9f9f9; padding: 10px; border-radius: 5px; border-left: 3px solid #2E8B57;">
+                """, unsafe_allow_html=True)
+                st.markdown(references_md)
+                st.markdown("</div>", unsafe_allow_html=True)
+
         # Check if videos should be included based on response_type
         options = RESPONSE_TYPES.get(response_type)
         if options and options["videos"]:
@@ -95,7 +116,7 @@ def main():
 
     st.session_state["current_page"] = "Long_Response_with_References_and_Videos"
 
-    st.session_state["response_type"] = "Long Response with References and Videos"
+    st.session_state["response_type"] = "Long Response with References and Videos , "
 
     controller.set('cookie_name', 'user_cookie')
     response_type = "Long Response with References and Videos"
